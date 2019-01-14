@@ -11,7 +11,7 @@ class DoubanSpider(Spider):
         base_url = 'http://movie.douban.com/top250?start='
         for page in range(0, 50, 25):
             url = base_url + str(page)
-            yield Request(url)
+            yield Request(url, execute_spide = self.name)
 
     def parse(self, response):
         # title_list = []

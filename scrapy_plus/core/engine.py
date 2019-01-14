@@ -24,7 +24,7 @@ from scrapy_plus.project_dir.spiders.douban_spider import DoubanSpider
 
 class Engine:
 
-    def __init__(self, spiders, pipelines = {}):
+    def __init__(self, spiders, pipelines = {}, middlewares = {}):
         # self.spider = Spider()
         self.spider = spiders
         self.scheduler = Scheduler()
@@ -32,7 +32,8 @@ class Engine:
         self.pipelines = pipelines
         self.downloader = Downloader()
         self.spider_mid = SpiderMiddleware()  # 初始化爬虫中间件对象
-        self.downloader_mid = DownloaderMiddleware()  # 初始化下载器中间件对象
+        # self.downloader_mid = DownloaderMiddleware()  # 初始化下载器中间件对象
+        self.downloader_mid = middlewares  # 初始化下载器中间件对象
 
         # 计算总响应数量
         self.total_response_nums = 0
@@ -57,8 +58,8 @@ class Engine:
                 # 给每个request请求绑定爬虫名 (这里的每个request指的是使用start_request所生成的request而已)
                 start_request.spider_name = spider_name
                 # 第二步 将请求对象添加到schedule的缓存队列中
-                # 利用爬虫中间件预处理请求对象
-                start_request = self.spider_mid.process_request(start_request)
+                # 利用爬虫中间件预处理请求对象（暂时注释掉、不知道爬虫中间键的用处）
+                # start_request = self.spider_mid.process_request(start_request)
                 self.scheduler.add_request(start_request)
                 # 请求数+1
                 self.total_request_nums += 1
@@ -72,8 +73,8 @@ class Engine:
             return
         
         try:
-            request = self.downloader_mid.process_request(request)
-            print(request.url)
+            downloader_middleware = self.downloader_mid[request.execute_spider]
+            request = downloader_middleware.process_request(request)
             # print(request.spider_name)
             # 第四步 拿到请求对象后、使用downlader下载器获取response对象
             response = self.downloader.get_response(request)
@@ -82,7 +83,8 @@ class Engine:
             response.meta = request.meta
 
             # 利用下载器中间件预处理响应对象
-            response = self.downloader_mid.process_response(response)
+            downloader_middleware = self.downloader_mid[request.execute_spider]
+            response = downloader_middleware.process_response(response)
 
             # 现在根据spider_name来获取到类对象
             try:
@@ -103,8 +105,8 @@ class Engine:
             for result in parse(response):
                 # 第六步 判断如果获取到请求对象则继续添加到schdule中 如果不是则由pipeline进行处理
                 if isinstance(result, Request):
-                    # 利用爬虫中间件预处理请求对象
-                    result = self.spider_mid.process_request(result)
+                    # 利用爬虫中间件预处理请求对象（暂时注释掉、不知道爬虫中间键的用处）
+                    # result = self.spider_mid.process_request(result)
                     self.scheduler.add_request(result)
                     # 请求数+1
                     self.total_request_nums += 1
