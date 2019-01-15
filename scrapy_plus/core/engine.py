@@ -21,12 +21,18 @@ from datetime import datetime
 
 from scrapy_plus.project_dir.spiders.douban_spider import DoubanSpider
 
+# 为了解藕性、将原本放在main函数中的所有爬虫类、管道类、中间键类移到settings配置中、然后使用动态导入
+from scrapy_plus.conf.settings import SPIDERS, SPIDER_MIDDLEWARES, PIPELINES, DOWNLOADER_MIDDLEWARES
+# 动态导入包
+import importlib
+
 
 class Engine:
 
-    def __init__(self, spiders, pipelines = {}, middlewares = {}):
+    def __init__(self, pipelines = {}, middlewares = {}):
         # self.spider = Spider()
-        self.spider = spiders
+        # self.spider = spider
+        self.spider = self._auto_import_instances(SPIDERS)
         self.scheduler = Scheduler()
         # self.pipeline = Pipeline()
         self.pipelines = pipelines
@@ -39,6 +45,24 @@ class Engine:
         self.total_response_nums = 0
         # 总请求数量
         self.total_request_nums = 0
+
+    def _auto_import_instances(self, path = []):
+        instance = {}
+        # path为一个列表、存放着spider、middle、pipeline各功能的配置文件中配置的导入类的路径
+        for each in path:
+            # 该代码获取的是导入路径
+            module_name = each.rsplit('.', 1)[0]
+            # 获取类名
+            class_name = each.rsplit('.', 1)[1]
+            # 通过动态导入的方法通过module_name这个导入路径 获取到ret这个包 等价于import baidi_spider 所以这个ret还不是类对象
+            ret = importlib.import_module(module_name)
+            # 使用getattr方法 传入类对象ret 和 类名class_name 获取到爬虫的类对象
+            spider = getattr(ret, class_name)
+            instance[spider.name] = spider()
+
+        return instance
+
+
 
     def start(self):
         start = datetime.now()
