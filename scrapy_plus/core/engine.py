@@ -18,15 +18,17 @@ from ..http.request import Request
 # 导入日志模块
 from scrapy_plus.utils.log import logger
 from datetime import datetime
-
+import importlib
 from scrapy_plus.project_dir.spiders.douban_spider import DoubanSpider
+from scrapy_plus.conf.settings import SPIDERS, PIPELINES, DOWNLOADER_MIDDLEWARES, SPIDER_MIDDLEWARES
 
 
 class Engine:
 
-    def __init__(self, spiders, pipelines = {}, middlewares = {}):
+    def __init__(self, pipelines = {}, middlewares = {}):
         # self.spider = Spider()
-        self.spider = spiders
+        # self.spider = spiders
+        self.spider = self._auto_import_instances(SPIDERS)
         self.scheduler = Scheduler()
         # self.pipeline = Pipeline()
         self.pipelines = pipelines
@@ -39,6 +41,18 @@ class Engine:
         self.total_response_nums = 0
         # 总请求数量
         self.total_request_nums = 0
+
+
+    def _auto_import_instances(self, path = []):
+        instance = {}
+        for each in path:
+            module_name = each.rsplit('.', 1)[0]
+            class_name = each.rsplit('.', 1)[1]
+            ret = importlib.import_module(module_name)
+            spider = getattr(ret, class_name)
+            instance[spider.name] = spider()
+        return instance
+
 
     def start(self):
         start = datetime.now()
@@ -64,8 +78,8 @@ class Engine:
                 # 请求数+1
                 self.total_request_nums += 1
 
-    def process_request(self):
 
+    def process_request(self):
         # 第三步 从缓存队列中获取请求对象
         request = self.scheduler.get_request()
         # 利用下载器中间件预处理请求对象

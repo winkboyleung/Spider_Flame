@@ -22,5 +22,7 @@ if __name__ == '__main__':
     pipelines = {'baidu' : BaiduPipeline(), 'douban' : DoubanPipeline()}
     middlewares = {'baidu' : BaiduMiddleware(), 'douban' : DoubanMiddleware()}
 
-    engine = Engine(spiders, pipelines = pipelines, middlewares = middlewares)
+    # engine = Engine(spiders, pipelines = pipelines, middlewares = middlewares)
+    # 使用动态导入后的修改
+    engine = Engine(pipelines = pipelines, middlewares = middlewares)
     engine.start()
