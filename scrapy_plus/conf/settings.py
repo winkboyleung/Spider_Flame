@@ -9,10 +9,11 @@ SPIDERS = [
     'spiders.douban_spider.DoubanSpider'
 ]
 
-PIPELINES = [
-    'pipelines.BaiduPipeline',
-    'pipelines.DoubanPipeline'
-]
+# PIPELINES = [
+#     'pipelines.BaiduPipeline',
+#     'pipelines.DoubanPipeline'
+# ]
+PIPELINES = {'baidu' : 'pipelines.BaiduPipeline', 'douban' : 'pipelines.DoubanPipeline'}
 
 
 # 启用的爬虫中间件类
