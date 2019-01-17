@@ -61,7 +61,9 @@ class Engine:
         stop = datetime.now()
         logger.info("运行结束时间：%s" % stop)  # 使用日志记录结束运行时间
         logger.info("耗时：%.2f" % (stop - start).total_seconds())  # 使用日志记录运行耗时
-        logger.info("总的请求数量:{}".format(self.scheduler.total_request_nums))
+        logger.info("总的请求数量:{}".format(self.total_request_nums))
+        logger.info("总的重复请求数量:{}".format(self.scheduler.repeat_request_nums))
+        logger.info("去重容器内的url : {}".format(self.scheduler._filter_container))
         logger.info("总的响应数量:{}".format(self.total_response_nums))
 
     def get_request(self):
@@ -102,38 +104,43 @@ class Engine:
 
             # 现在根据spider_name来获取到类对象
             try:
+                # request.spider_name是只有start_request生成的请求对象才有的属性
                 spider = self.spider[request.spider_name]
             # 新增内容 由于上面的try语句只适合start_request函数的request对象、而下面这个语句则适合于多解析函数的情况
             except:
                 spider = self.spider[request.execute_spider]
-            print(self.total_response_nums, self.total_request_nums)
+            # print(self.total_response_nums, self.total_request_nums)
             # 获取请求对象中parse方法、并且调用这个parse方法解析这个response对象
             # 此处的request.callback来自上面几行的request 首次调用的request.callback基本是 == 'parse'这个解析函数
             # 所以下面这行代码意思从self.spider这个类对象中获取到request.callback的值 然后再赋值给parse这个变量
             # 然后在这个变量parse后面加上括号、就等同于调用self.spider类的解析函数
             # parse = getattr(self.spider, request.callback)
             parse = getattr(spider, request.callback)
+            # 当parse函数是通过yield处理、则是一个迭代器可以通过下面的for循环进行遍历,如果不是yield处理的、则会返回none、响应数自动加1、这样的好处是、即使是使用print也不会报错
+            results = parse(response)
             # 第五步 利用爬虫解析所得到的响应结果
             # result = self.spider.parse(response)
             # 由于这里使用了for循环、所以parse(response)的结果必须使用yield方法、否则会报错、如果只是想打印、则使用上面的代码
-            for result in parse(response):
-                # 第六步 判断如果获取到请求对象则继续添加到schdule中 如果不是则由pipeline进行处理
-                if isinstance(result, Request):
-                    # 利用爬虫中间件预处理请求对象（暂时注释掉、不知道爬虫中间键的用处）
-                    # result = self.spider_mid.process_request(result)
-                    self.scheduler.add_request(result)
-                    # 请求数+1
-                    self.total_request_nums += 1
+            # for result in parse(response):
+            if results is not None:
+                for result in results:
+                    # 第六步 判断如果获取到请求对象则继续添加到schdule中 如果不是则由pipeline进行处理
+                    if isinstance(result, Request):
+                        # 利用爬虫中间件预处理请求对象（暂时注释掉、不知道爬虫中间键的用处）
+                        # result = self.spider_mid.process_request(result)
+                        self.scheduler.add_request(result)
+                        # 请求数+1
+                        self.total_request_nums += 1
 
-                else:
-                    # 课件上的方法、虽可用、但是每次都要将所有管道遍历一次、浪费资源
-                    # for pipeline in self.pipelines:
-                    #     pipeline.process_item(result, spider)
+                    else:
+                        # 课件上的方法、虽可用、但是每次都要将所有管道遍历一次、浪费资源
+                        # for pipeline in self.pipelines:
+                        #     pipeline.process_item(result, spider)
 
-                    # 自己重写的方法、不用遍历所有管道、只需要根据请求对象的spider名获取到self.pipelines中对应的管道即可
-                    pipeline = self.pipelines[spider.name]
-                    pipeline.process_item(result, spider)
-                    # self.pipeline.process_item(result)
+                        # 自己重写的方法、不用遍历所有管道、只需要根据请求对象的spider名获取到self.pipelines中对应的管道即可
+                        pipeline = self.pipelines[spider.name]
+                        pipeline.process_item(result, spider)
+                        # self.pipeline.process_item(result)
 
 
         finally:
@@ -147,6 +154,6 @@ class Engine:
             time.sleep(0.001)
             self.process_request()
 
-            if self.total_response_nums >= self.total_request_nums:
+            if self.total_response_nums + self.scheduler.repeat_request_nums >= self.total_request_nums:
                 logger.info("程序结束")
                 break

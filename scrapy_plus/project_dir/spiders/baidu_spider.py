@@ -8,7 +8,11 @@ class BaiduSpider(Spider):
 
     start_urls = ['https://www.baidu.com']
 
+    # def start_request(self):
+    #     for start_reuqest in self.start_urls:
+    #         # print(start_reuqest)
+    #         yield Request(start_reuqest, execute_spide = self.name)
     def start_request(self):
-        for start_reuqest in self.start_urls:
-            # print(start_reuqest)
-            yield Request(start_reuqest, execute_spide = self.name)
+        url = 'https://www.baidu.com'
+        for nums in range(1, 6):
+            yield Request(url, execute_spide = self.name)
