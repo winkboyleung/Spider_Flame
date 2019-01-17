@@ -5,10 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrapy_plus/conf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy_plus/conf/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrapy_plus/core/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy_plus/core/engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_plus/core/scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy_plus/core/scheduler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_plus/project_dir/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy_plus/project_dir/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrapy_plus/project_dir/spider.log" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy_plus/project_dir/spider.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_plus/project_dir/spiders/baidu_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy_plus/project_dir/spiders/baidu_spider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrapy_plus/project_dir/spiders/douban_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy_plus/project_dir/spiders/douban_spider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +16,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/spider_flame$main.coverage" NAME="main Coverage Results" MODIFIED="1546528005258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy_plus/project_dir" />
-    <SUITE FILE_PATH="coverage/Spider_Flame$main.coverage" NAME="main Coverage Results" MODIFIED="1547732264914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy_plus/project_dir" />
+    <SUITE FILE_PATH="coverage/Spider_Flame$main.coverage" NAME="main Coverage Results" MODIFIED="1547741005703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy_plus/project_dir" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Spider_Flame" />
@@ -27,10 +24,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy_plus/project_dir/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scrapy_plus/core/engine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
+            <state relative-caret-position="317">
+              <caret line="174" column="36" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
               <folding>
                 <element signature="e#110#121#0" expanded="true" />
               </folding>
@@ -53,22 +62,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy_plus/conf/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
+            <state relative-caret-position="504">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <element signature="e#16#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_plus/utils/log.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-              <folding>
-                <element signature="e#27#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy_plus/project_dir/spiders/douban_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="287">
+              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -132,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/scrapy_plus/project_dir/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -169,17 +166,17 @@
         <option value="$PROJECT_DIR$/scrapy_plus/project_dir/spider.py" />
         <option value="$PROJECT_DIR$/scrapy_plus/http/response.py" />
         <option value="$PROJECT_DIR$/scrapy_plus/project_dir/spiders.py" />
-        <option value="$PROJECT_DIR$/scrapy_plus/project_dir/settings.py" />
         <option value="$PROJECT_DIR$/scrapy_plus/http/request.py" />
         <option value="$PROJECT_DIR$/scrapy_plus/project_dir/pipelines.py" />
         <option value="$PROJECT_DIR$/scrapy_plus/core/spider.py" />
         <option value="$PROJECT_DIR$/scrapy_plus/project_dir/spiders_middlewares.py" />
-        <option value="$PROJECT_DIR$/scrapy_plus/conf/settings.py" />
         <option value="$PROJECT_DIR$/scrapy_plus/project_dir/main.py" />
         <option value="$PROJECT_DIR$/scrapy_plus/core/scheduler.py" />
-        <option value="$PROJECT_DIR$/scrapy_plus/core/engine.py" />
         <option value="$PROJECT_DIR$/scrapy_plus/project_dir/spiders/baidu_spider.py" />
+        <option value="$PROJECT_DIR$/scrapy_plus/project_dir/settings.py" />
+        <option value="$PROJECT_DIR$/scrapy_plus/conf/settings.py" />
         <option value="$PROJECT_DIR$/scrapy_plus/project_dir/spiders/douban_spider.py" />
+        <option value="$PROJECT_DIR$/scrapy_plus/core/engine.py" />
       </list>
     </option>
   </component>
@@ -339,12 +336,12 @@
       <workItem from="1547469039768" duration="3170000" />
       <workItem from="1547558933057" duration="4962000" />
       <workItem from="1547650857558" duration="2579000" />
-      <workItem from="1547731345790" duration="931000" />
+      <workItem from="1547731345790" duration="3247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77569000" />
+    <option name="totallyTimeSpent" value="79885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
@@ -355,7 +352,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5006935" side_tool="true" weight="0.21030043" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3744799" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8044383" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -492,26 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_plus/project_dir/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_plus/conf/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
-          <folding>
-            <element signature="e#16#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_plus/utils/log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -546,29 +523,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_plus/project_dir/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_plus/core/scheduler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
           <folding>
             <element signature="e#18#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_plus/core/engine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
-          <folding>
-            <element signature="e#110#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -583,12 +543,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_plus/project_dir/spiders/douban_spider.py">
+    <entry file="file://$PROJECT_DIR$/scrapy_plus/project_dir/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_plus/project_dir/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_plus/conf/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#16#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_plus/project_dir/spiders/douban_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_plus/core/engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="174" column="36" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
+          <folding>
+            <element signature="e#110#121#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -16,7 +16,7 @@ class DoubanSpider(Spider):
     def parse(self, response):
         # title_list = []
         # 获取每页所有的li标签、每页25个
-        for each_li in response.xpath('//ol[@class="grid_view"]/li')[:2]:
+        for each_li in response.xpath('//ol[@class="grid_view"]/li')[:3]:
             items = {}
             items['title'] = each_li.xpath('.//span[@class="title"]/text()')[0]
             # title_list.append(items)

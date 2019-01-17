@@ -22,10 +22,11 @@ from datetime import datetime
 from scrapy_plus.project_dir.spiders.douban_spider import DoubanSpider
 
 # 为了解藕性、将原本放在main函数中的所有爬虫类、管道类、中间键类移到settings配置中、然后使用动态导入
-from scrapy_plus.conf.settings import SPIDERS, SPIDER_MIDDLEWARES, PIPELINES, DOWNLOADER_MIDDLEWARES
+from scrapy_plus.conf.settings import SPIDERS, SPIDER_MIDDLEWARES, PIPELINES, DOWNLOADER_MIDDLEWARES, MAX_ASYNC_THREAD_NUMBER
 # 动态导入包
 import importlib
 
+from multiprocessing.dummy import Pool
 
 class Engine:
 
@@ -46,6 +47,10 @@ class Engine:
         # 总请求数量
         self.total_request_nums = 0
 
+        # 线程池
+        self.pool = Pool()
+        self.is_running = False
+
     def _auto_import_instances(self, path):
         instance = {}
         # path为一个列表、存放着spider、middle、pipeline各功能的配置文件中配置的导入类的路径
@@ -62,12 +67,22 @@ class Engine:
 
         return instance
 
+    def _call_back(self, temp):
+        if self.is_running:
+            self.pool.apply_async(self.process_request, callback = self._call_back, error_callback = self._error_call_back)
 
+    def _error_call_back(self, exception):
+        try:
+            raise exception
+        except Exception as e:
+            logger.exception(e)
 
     def start(self):
         start = datetime.now()
         logger.info("开始运行时间：%s" % start)  # 使用日志记录起始运行时间
         self._start_engine()
+        self.pool.close()
+        self.pool.join()
         stop = datetime.now()
         logger.info("运行结束时间：%s" % stop)  # 使用日志记录结束运行时间
         logger.info("耗时：%.2f" % (stop - start).total_seconds())  # 使用日志记录运行耗时
@@ -154,12 +169,17 @@ class Engine:
 
 
     def _start_engine(self):
-        self.get_request()
+        self.is_running = True
+        self.pool.apply_async(self.get_request, error_callback = self._error_call_back)
+
+        for loop in range(MAX_ASYNC_THREAD_NUMBER):
+            self.pool.apply_async(self.process_request, callback = self._call_back, error_callback = self._error_call_back)
 
         while 1:
             time.sleep(0.001)
-            self.process_request()
+            # self.process_request()
 
             if self.total_response_nums + self.scheduler.request_repeat_nums >= self.total_request_nums:
-                logger.info("程序结束")
+                self.is_running = False
+                # logger.info("程序结束")
                 break

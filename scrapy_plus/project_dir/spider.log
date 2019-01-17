@@ -164,3 +164,106 @@
 2019-01-17 21:37:49 engine.py [line:74] INFO: 总的请求数量:10
 2019-01-17 21:37:49 engine.py [line:75] INFO: 总的响应数量:7
 2019-01-17 21:37:49 engine.py [line:76] INFO: 总的重复请求数量:3
+2019-01-17 23:40:20 engine.py [line:75] INFO: 开始运行时间：2019-01-17 23:40:20.809568
+2019-01-17 23:40:20 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:40:20 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:40:20 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:40:20 engine.py [line:78] INFO: 运行结束时间：2019-01-17 23:40:20.811749
+2019-01-17 23:40:20 engine.py [line:79] INFO: 耗时：0.00
+2019-01-17 23:40:20 engine.py [line:80] INFO: 总的请求数量:6
+2019-01-17 23:40:20 engine.py [line:81] INFO: 总的响应数量:0
+2019-01-17 23:40:20 engine.py [line:82] INFO: 总的重复请求数量:3
+2019-01-17 23:41:25 engine.py [line:75] INFO: 开始运行时间：2019-01-17 23:41:25.584507
+2019-01-17 23:41:25 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:41:25 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:41:25 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:11 engine.py [line:76] INFO: 开始运行时间：2019-01-17 23:48:11.127876
+2019-01-17 23:48:11 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:11 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:11 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:12 engine.py [line:81] INFO: 运行结束时间：2019-01-17 23:48:12.459696
+2019-01-17 23:48:12 engine.py [line:82] INFO: 耗时：1.33
+2019-01-17 23:48:12 engine.py [line:83] INFO: 总的请求数量:10
+2019-01-17 23:48:12 engine.py [line:84] INFO: 总的响应数量:7
+2019-01-17 23:48:12 engine.py [line:85] INFO: 总的重复请求数量:3
+2019-01-17 23:48:25 engine.py [line:76] INFO: 开始运行时间：2019-01-17 23:48:25.956806
+2019-01-17 23:48:25 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:25 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:25 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:25 engine.py [line:80] INFO: 运行结束时间：2019-01-17 23:48:25.958341
+2019-01-17 23:48:25 engine.py [line:81] INFO: 耗时：0.00
+2019-01-17 23:48:25 engine.py [line:82] INFO: 总的请求数量:6
+2019-01-17 23:48:25 engine.py [line:83] INFO: 总的响应数量:0
+2019-01-17 23:48:25 engine.py [line:84] INFO: 总的重复请求数量:3
+2019-01-17 23:48:29 engine.py [line:76] INFO: 开始运行时间：2019-01-17 23:48:29.985074
+2019-01-17 23:48:29 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:29 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:29 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:31 engine.py [line:80] INFO: 运行结束时间：2019-01-17 23:48:31.387203
+2019-01-17 23:48:31 engine.py [line:81] INFO: 耗时：1.40
+2019-01-17 23:48:31 engine.py [line:82] INFO: 总的请求数量:10
+2019-01-17 23:48:31 engine.py [line:83] INFO: 总的响应数量:7
+2019-01-17 23:48:31 engine.py [line:84] INFO: 总的重复请求数量:3
+2019-01-17 23:48:37 engine.py [line:76] INFO: 开始运行时间：2019-01-17 23:48:37.106489
+2019-01-17 23:48:37 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:37 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:37 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:37 engine.py [line:80] INFO: 运行结束时间：2019-01-17 23:48:37.108122
+2019-01-17 23:48:37 engine.py [line:81] INFO: 耗时：0.00
+2019-01-17 23:48:37 engine.py [line:82] INFO: 总的请求数量:6
+2019-01-17 23:48:37 engine.py [line:83] INFO: 总的响应数量:0
+2019-01-17 23:48:37 engine.py [line:84] INFO: 总的重复请求数量:3
+2019-01-17 23:48:46 engine.py [line:76] INFO: 开始运行时间：2019-01-17 23:48:46.339784
+2019-01-17 23:48:46 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:46 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:46 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:48:47 engine.py [line:81] INFO: 运行结束时间：2019-01-17 23:48:47.676811
+2019-01-17 23:48:47 engine.py [line:82] INFO: 耗时：1.34
+2019-01-17 23:48:47 engine.py [line:83] INFO: 总的请求数量:10
+2019-01-17 23:48:47 engine.py [line:84] INFO: 总的响应数量:7
+2019-01-17 23:48:47 engine.py [line:85] INFO: 总的重复请求数量:3
+2019-01-17 23:49:36 engine.py [line:76] INFO: 开始运行时间：2019-01-17 23:49:36.890379
+2019-01-17 23:49:36 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:49:36 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:49:36 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:49:37 engine.py [line:81] INFO: 运行结束时间：2019-01-17 23:49:37.410545
+2019-01-17 23:49:37 engine.py [line:82] INFO: 耗时：0.52
+2019-01-17 23:49:37 engine.py [line:83] INFO: 总的请求数量:56
+2019-01-17 23:49:37 engine.py [line:84] INFO: 总的响应数量:3
+2019-01-17 23:49:37 engine.py [line:85] INFO: 总的重复请求数量:3
+2019-01-17 23:49:55 engine.py [line:76] INFO: 开始运行时间：2019-01-17 23:49:55.958260
+2019-01-17 23:49:55 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:49:55 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:49:55 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:49:57 engine.py [line:81] INFO: 运行结束时间：2019-01-17 23:49:57.290252
+2019-01-17 23:49:57 engine.py [line:82] INFO: 耗时：1.33
+2019-01-17 23:49:57 engine.py [line:83] INFO: 总的请求数量:10
+2019-01-17 23:49:57 engine.py [line:84] INFO: 总的响应数量:7
+2019-01-17 23:49:57 engine.py [line:85] INFO: 总的重复请求数量:3
+2019-01-17 23:50:05 engine.py [line:76] INFO: 开始运行时间：2019-01-17 23:50:05.626597
+2019-01-17 23:50:05 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:50:05 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:50:05 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:50:16 engine.py [line:81] INFO: 运行结束时间：2019-01-17 23:50:16.485358
+2019-01-17 23:50:16 engine.py [line:82] INFO: 耗时：10.86
+2019-01-17 23:50:16 engine.py [line:83] INFO: 总的请求数量:54
+2019-01-17 23:50:16 engine.py [line:84] INFO: 总的响应数量:51
+2019-01-17 23:50:16 engine.py [line:85] INFO: 总的重复请求数量:3
+2019-01-17 23:50:21 engine.py [line:76] INFO: 开始运行时间：2019-01-17 23:50:21.222975
+2019-01-17 23:50:21 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:50:21 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:50:21 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 23:50:32 engine.py [line:81] INFO: 运行结束时间：2019-01-17 23:50:32.266912
+2019-01-17 23:50:32 engine.py [line:82] INFO: 耗时：11.04
+2019-01-17 23:50:32 engine.py [line:83] INFO: 总的请求数量:56
+2019-01-17 23:50:32 engine.py [line:84] INFO: 总的响应数量:53
+2019-01-17 23:50:32 engine.py [line:85] INFO: 总的重复请求数量:3
+2019-01-18 00:03:25 engine.py [line:82] INFO: 开始运行时间：2019-01-18 00:03:25.979061
+2019-01-18 00:03:25 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 00:03:25 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 00:03:25 scheduler.py [line:39] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 00:03:28 engine.py [line:87] INFO: 运行结束时间：2019-01-18 00:03:28.639864
+2019-01-18 00:03:28 engine.py [line:88] INFO: 耗时：2.66
+2019-01-18 00:03:28 engine.py [line:89] INFO: 总的请求数量:12
+2019-01-18 00:03:28 engine.py [line:90] INFO: 总的响应数量:9
+2019-01-18 00:03:28 engine.py [line:91] INFO: 总的重复请求数量:3
