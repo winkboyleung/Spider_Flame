@@ -13,3 +13,5 @@ SPIDER_MIDDLEWARES = []
 # 启用的下载器中间件类
 DOWNLOADER_MIDDLEWARES = []
 
+# 默认异步线程最大并发数，此参数可以在项目的settings.py中重新设置自动覆盖
+MAX_ASYNC_THREAD_NUMBER = 4

@@ -14,5 +14,5 @@ class BaiduSpider(Spider):
     #         yield Request(start_reuqest, execute_spide = self.name)
     def start_request(self):
         url = 'https://www.baidu.com'
-        for nums in range(1, 6):
+        for nums in range(1, 5):
             yield Request(url, execute_spide = self.name)

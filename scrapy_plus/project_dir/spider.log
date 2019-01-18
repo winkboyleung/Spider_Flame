@@ -180,3 +180,466 @@
 2019-01-17 17:46:41 engine.py [line:65] INFO: 总的重复请求数量:4
 2019-01-17 17:46:41 engine.py [line:66] INFO: 去重容器内的url : {'0db802b6d3caa8b4df28092315892ae53c79e773', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '73094806f1e0a04aca58c8dd19d0e79d376260d6', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822'}
 2019-01-17 17:46:41 engine.py [line:67] INFO: 总的响应数量:7
+2019-01-17 18:35:32 engine.py [line:59] INFO: 开始运行时间：2019-01-17 18:35:32.165418
+2019-01-17 18:35:32 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 18:35:32 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 18:35:32 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 18:35:32 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-17 18:35:37 engine.py [line:158] INFO: 程序结束
+2019-01-17 18:35:37 engine.py [line:62] INFO: 运行结束时间：2019-01-17 18:35:37.034010
+2019-01-17 18:35:37 engine.py [line:63] INFO: 耗时：4.87
+2019-01-17 18:35:37 engine.py [line:64] INFO: 总的请求数量:11
+2019-01-17 18:35:37 engine.py [line:65] INFO: 总的重复请求数量:4
+2019-01-17 18:35:37 engine.py [line:66] INFO: 去重容器内的url : {'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5', '0db802b6d3caa8b4df28092315892ae53c79e773', 'bc228721d02c108761fc1f34932bc089ff620de9', '73094806f1e0a04aca58c8dd19d0e79d376260d6'}
+2019-01-17 18:35:37 engine.py [line:67] INFO: 总的响应数量:7
+2019-01-18 10:15:34 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:15:34.566001
+2019-01-18 10:15:34 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:15:34 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:15:34 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:15:34 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:15:35 engine.py [line:71] INFO: 运行结束时间：2019-01-18 10:15:35.912725
+2019-01-18 10:15:35 engine.py [line:72] INFO: 耗时：1.35
+2019-01-18 10:15:35 engine.py [line:73] INFO: 总的请求数量:7
+2019-01-18 10:15:35 engine.py [line:74] INFO: 总的重复请求数量:4
+2019-01-18 10:15:35 engine.py [line:75] INFO: 去重容器内的url : {'bc228721d02c108761fc1f34932bc089ff620de9', '19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-18 10:15:35 engine.py [line:76] INFO: 总的响应数量:1
+2019-01-18 10:15:55 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:15:55.741732
+2019-01-18 10:15:55 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:15:55 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:15:55 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:15:55 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:15:55 engine.py [line:71] INFO: 运行结束时间：2019-01-18 10:15:55.954962
+2019-01-18 10:15:55 engine.py [line:72] INFO: 耗时：0.21
+2019-01-18 10:15:55 engine.py [line:73] INFO: 总的请求数量:7
+2019-01-18 10:15:55 engine.py [line:74] INFO: 总的重复请求数量:4
+2019-01-18 10:15:55 engine.py [line:75] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-18 10:15:55 engine.py [line:76] INFO: 总的响应数量:1
+2019-01-18 10:16:26 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:16:26.738251
+2019-01-18 10:16:26 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:16:26 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:16:26 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:16:26 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:16:26 engine.py [line:71] INFO: 运行结束时间：2019-01-18 10:16:26.952893
+2019-01-18 10:16:26 engine.py [line:72] INFO: 耗时：0.21
+2019-01-18 10:16:26 engine.py [line:73] INFO: 总的请求数量:7
+2019-01-18 10:16:26 engine.py [line:74] INFO: 总的重复请求数量:4
+2019-01-18 10:16:26 engine.py [line:75] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'bc228721d02c108761fc1f34932bc089ff620de9'}
+2019-01-18 10:16:26 engine.py [line:76] INFO: 总的响应数量:1
+2019-01-18 10:17:43 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:17:43.409889
+2019-01-18 10:17:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:17:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:17:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:17:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:17:43 engine.py [line:71] INFO: 运行结束时间：2019-01-18 10:17:43.929575
+2019-01-18 10:17:43 engine.py [line:72] INFO: 耗时：0.52
+2019-01-18 10:17:43 engine.py [line:73] INFO: 总的请求数量:11
+2019-01-18 10:17:43 engine.py [line:74] INFO: 总的重复请求数量:4
+2019-01-18 10:17:43 engine.py [line:75] INFO: 去重容器内的url : {'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '40f1815eca53bbc2758fa2f05991a9f2b08fb822'}
+2019-01-18 10:17:43 engine.py [line:76] INFO: 总的响应数量:3
+2019-01-18 10:18:32 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:18:32.772250
+2019-01-18 10:18:32 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:18:32 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:18:32 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:18:32 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:18:32 engine.py [line:71] INFO: 运行结束时间：2019-01-18 10:18:32.875001
+2019-01-18 10:18:32 engine.py [line:72] INFO: 耗时：0.10
+2019-01-18 10:18:32 engine.py [line:73] INFO: 总的请求数量:7
+2019-01-18 10:18:32 engine.py [line:74] INFO: 总的重复请求数量:4
+2019-01-18 10:18:32 engine.py [line:75] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'bc228721d02c108761fc1f34932bc089ff620de9', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-18 10:18:32 engine.py [line:76] INFO: 总的响应数量:1
+2019-01-18 10:22:36 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:22:36.527287
+2019-01-18 10:22:36 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:22:36 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:22:36 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:22:36 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:22:37 engine.py [line:71] INFO: 运行结束时间：2019-01-18 10:22:37.147489
+2019-01-18 10:22:37 engine.py [line:72] INFO: 耗时：0.62
+2019-01-18 10:22:37 engine.py [line:73] INFO: 总的请求数量:7
+2019-01-18 10:22:37 engine.py [line:74] INFO: 总的重复请求数量:4
+2019-01-18 10:22:37 engine.py [line:75] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'bc228721d02c108761fc1f34932bc089ff620de9'}
+2019-01-18 10:22:37 engine.py [line:76] INFO: 总的响应数量:1
+2019-01-18 10:25:24 engine.py [line:71] INFO: 开始运行时间：2019-01-18 10:25:24.462999
+2019-01-18 10:25:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:25:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:25:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:25:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:25:26 engine.py [line:76] INFO: 运行结束时间：2019-01-18 10:25:26.021738
+2019-01-18 10:25:26 engine.py [line:77] INFO: 耗时：1.56
+2019-01-18 10:25:26 engine.py [line:78] INFO: 总的请求数量:11
+2019-01-18 10:25:26 engine.py [line:79] INFO: 总的重复请求数量:4
+2019-01-18 10:25:26 engine.py [line:80] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', 'bc228721d02c108761fc1f34932bc089ff620de9', '0db802b6d3caa8b4df28092315892ae53c79e773', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-18 10:25:26 engine.py [line:81] INFO: 总的响应数量:7
+2019-01-18 10:25:35 engine.py [line:71] INFO: 开始运行时间：2019-01-18 10:25:35.794781
+2019-01-18 10:25:35 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:25:35 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:25:35 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:25:35 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:25:37 engine.py [line:76] INFO: 运行结束时间：2019-01-18 10:25:37.250495
+2019-01-18 10:25:37 engine.py [line:77] INFO: 耗时：1.46
+2019-01-18 10:25:37 engine.py [line:78] INFO: 总的请求数量:11
+2019-01-18 10:25:37 engine.py [line:79] INFO: 总的重复请求数量:4
+2019-01-18 10:25:37 engine.py [line:80] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', 'bc228721d02c108761fc1f34932bc089ff620de9', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-18 10:25:37 engine.py [line:81] INFO: 总的响应数量:7
+2019-01-18 10:26:08 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:26:08.502864
+2019-01-18 10:26:08 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:26:08 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:26:08 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:26:08 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:26:08 engine.py [line:71] INFO: 运行结束时间：2019-01-18 10:26:08.606551
+2019-01-18 10:26:08 engine.py [line:72] INFO: 耗时：0.10
+2019-01-18 10:26:08 engine.py [line:73] INFO: 总的请求数量:7
+2019-01-18 10:26:08 engine.py [line:74] INFO: 总的重复请求数量:4
+2019-01-18 10:26:08 engine.py [line:75] INFO: 去重容器内的url : {'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-18 10:26:08 engine.py [line:76] INFO: 总的响应数量:1
+2019-01-18 10:26:57 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:26:57.080361
+2019-01-18 10:26:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:26:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:26:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:26:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:26:58 engine.py [line:71] INFO: 运行结束时间：2019-01-18 10:26:58.325952
+2019-01-18 10:26:58 engine.py [line:72] INFO: 耗时：1.25
+2019-01-18 10:26:58 engine.py [line:73] INFO: 总的请求数量:11
+2019-01-18 10:26:58 engine.py [line:74] INFO: 总的重复请求数量:4
+2019-01-18 10:26:58 engine.py [line:75] INFO: 去重容器内的url : {'0db802b6d3caa8b4df28092315892ae53c79e773', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '73094806f1e0a04aca58c8dd19d0e79d376260d6', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2'}
+2019-01-18 10:26:58 engine.py [line:76] INFO: 总的响应数量:7
+2019-01-18 10:27:36 engine.py [line:69] INFO: 开始运行时间：2019-01-18 10:27:36.779350
+2019-01-18 10:27:36 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:27:36 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:27:36 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:27:36 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:27:38 engine.py [line:74] INFO: 运行结束时间：2019-01-18 10:27:38.649481
+2019-01-18 10:27:38 engine.py [line:75] INFO: 耗时：1.87
+2019-01-18 10:27:38 engine.py [line:76] INFO: 总的请求数量:11
+2019-01-18 10:27:38 engine.py [line:77] INFO: 总的重复请求数量:4
+2019-01-18 10:27:38 engine.py [line:78] INFO: 去重容器内的url : {'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773', 'bc228721d02c108761fc1f34932bc089ff620de9', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '73094806f1e0a04aca58c8dd19d0e79d376260d6'}
+2019-01-18 10:27:38 engine.py [line:79] INFO: 总的响应数量:7
+2019-01-18 10:27:41 engine.py [line:69] INFO: 开始运行时间：2019-01-18 10:27:41.171974
+2019-01-18 10:27:41 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:27:41 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:27:41 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:27:41 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:27:42 engine.py [line:74] INFO: 运行结束时间：2019-01-18 10:27:42.422612
+2019-01-18 10:27:42 engine.py [line:75] INFO: 耗时：1.25
+2019-01-18 10:27:42 engine.py [line:76] INFO: 总的请求数量:11
+2019-01-18 10:27:42 engine.py [line:77] INFO: 总的重复请求数量:4
+2019-01-18 10:27:42 engine.py [line:78] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773', 'bc228721d02c108761fc1f34932bc089ff620de9', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2'}
+2019-01-18 10:27:42 engine.py [line:79] INFO: 总的响应数量:7
+2019-01-18 10:35:00 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:35:00.986380
+2019-01-18 10:35:00 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:00 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:00 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:00 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:03 engine.py [line:71] INFO: 运行结束时间：2019-01-18 10:35:03.275620
+2019-01-18 10:35:03 engine.py [line:72] INFO: 耗时：2.29
+2019-01-18 10:35:03 engine.py [line:73] INFO: 总的请求数量:11
+2019-01-18 10:35:03 engine.py [line:74] INFO: 总的重复请求数量:4
+2019-01-18 10:35:03 engine.py [line:75] INFO: 去重容器内的url : {'c5dba783b68a58e3d79ed253328f843cb6d3eac2', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-18 10:35:03 engine.py [line:76] INFO: 总的响应数量:7
+2019-01-18 10:35:26 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:35:26.303554
+2019-01-18 10:35:26 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:26 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:26 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:26 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:26 engine.py [line:71] INFO: 运行结束时间：2019-01-18 10:35:26.821494
+2019-01-18 10:35:26 engine.py [line:72] INFO: 耗时：0.52
+2019-01-18 10:35:26 engine.py [line:73] INFO: 总的请求数量:7
+2019-01-18 10:35:26 engine.py [line:74] INFO: 总的重复请求数量:4
+2019-01-18 10:35:26 engine.py [line:75] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-18 10:35:26 engine.py [line:76] INFO: 总的响应数量:1
+2019-01-18 10:35:44 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:35:44.284431
+2019-01-18 10:35:44 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:44 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:44 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:44 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:53 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:35:53.298642
+2019-01-18 10:35:53 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:53 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:53 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:35:53 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:07 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:37:07.881592
+2019-01-18 10:37:07 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:07 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:07 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:07 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:10 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:37:10.071617
+2019-01-18 10:37:10 engine.py [line:70] INFO: 耗时：2.19
+2019-01-18 10:37:10 engine.py [line:71] INFO: 总的请求数量:11
+2019-01-18 10:37:10 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:37:10 engine.py [line:73] INFO: 去重容器内的url : {'0db802b6d3caa8b4df28092315892ae53c79e773', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', 'bc228721d02c108761fc1f34932bc089ff620de9', '19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-18 10:37:10 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:37:12 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:37:12.593523
+2019-01-18 10:37:12 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:12 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:12 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:12 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:14 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:37:14.106856
+2019-01-18 10:37:14 engine.py [line:70] INFO: 耗时：1.51
+2019-01-18 10:37:14 engine.py [line:71] INFO: 总的请求数量:11
+2019-01-18 10:37:14 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:37:14 engine.py [line:73] INFO: 去重容器内的url : {'0db802b6d3caa8b4df28092315892ae53c79e773', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'bc228721d02c108761fc1f34932bc089ff620de9', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '73094806f1e0a04aca58c8dd19d0e79d376260d6'}
+2019-01-18 10:37:14 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:37:16 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:37:16.480958
+2019-01-18 10:37:16 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:16 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:16 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:16 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:18 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:37:18.548979
+2019-01-18 10:37:18 engine.py [line:70] INFO: 耗时：2.07
+2019-01-18 10:37:18 engine.py [line:71] INFO: 总的请求数量:11
+2019-01-18 10:37:18 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:37:18 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '73094806f1e0a04aca58c8dd19d0e79d376260d6', 'bc228721d02c108761fc1f34932bc089ff620de9', '40f1815eca53bbc2758fa2f05991a9f2b08fb822'}
+2019-01-18 10:37:18 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:37:20 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:37:20.623486
+2019-01-18 10:37:20 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:20 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:20 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:37:20.625943
+2019-01-18 10:37:20 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:20 engine.py [line:70] INFO: 耗时：0.00
+2019-01-18 10:37:20 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:20 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-18 10:37:20 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:37:20 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'bc228721d02c108761fc1f34932bc089ff620de9'}
+2019-01-18 10:37:20 engine.py [line:74] INFO: 总的响应数量:0
+2019-01-18 10:37:24 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:37:24.559658
+2019-01-18 10:37:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:24 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:37:24.561344
+2019-01-18 10:37:24 engine.py [line:70] INFO: 耗时：0.00
+2019-01-18 10:37:24 engine.py [line:71] INFO: 总的请求数量:7
+2019-01-18 10:37:24 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:37:24 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'bc228721d02c108761fc1f34932bc089ff620de9'}
+2019-01-18 10:37:24 engine.py [line:74] INFO: 总的响应数量:0
+2019-01-18 10:37:39 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:37:39.165393
+2019-01-18 10:37:39 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:39 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:39 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:39 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:41 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:37:41.684163
+2019-01-18 10:37:41 engine.py [line:70] INFO: 耗时：2.52
+2019-01-18 10:37:41 engine.py [line:71] INFO: 总的请求数量:11
+2019-01-18 10:37:41 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:37:41 engine.py [line:73] INFO: 去重容器内的url : {'bc228721d02c108761fc1f34932bc089ff620de9', '73094806f1e0a04aca58c8dd19d0e79d376260d6', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '19648883befbae40a3c684eab3c7f85c074260a5', '0db802b6d3caa8b4df28092315892ae53c79e773', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-18 10:37:41 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:37:43 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:37:43.817013
+2019-01-18 10:37:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:46 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:37:46.368164
+2019-01-18 10:37:46 engine.py [line:70] INFO: 耗时：2.55
+2019-01-18 10:37:46 engine.py [line:71] INFO: 总的请求数量:11
+2019-01-18 10:37:46 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:37:46 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773', 'bc228721d02c108761fc1f34932bc089ff620de9', '19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822'}
+2019-01-18 10:37:46 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:37:52 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:37:52.612954
+2019-01-18 10:37:52 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:52 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:52 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:52 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:37:54 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:37:54.762256
+2019-01-18 10:37:54 engine.py [line:70] INFO: 耗时：2.15
+2019-01-18 10:37:54 engine.py [line:71] INFO: 总的请求数量:11
+2019-01-18 10:37:54 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:37:54 engine.py [line:73] INFO: 去重容器内的url : {'0db802b6d3caa8b4df28092315892ae53c79e773', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '73094806f1e0a04aca58c8dd19d0e79d376260d6', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '19648883befbae40a3c684eab3c7f85c074260a5', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-18 10:37:54 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:38:09 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:38:09.177957
+2019-01-18 10:38:09 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:38:09 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:38:09 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:38:09 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:38:11 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:38:11.125245
+2019-01-18 10:38:11 engine.py [line:70] INFO: 耗时：1.95
+2019-01-18 10:38:11 engine.py [line:71] INFO: 总的请求数量:11
+2019-01-18 10:38:11 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:38:11 engine.py [line:73] INFO: 去重容器内的url : {'bc228721d02c108761fc1f34932bc089ff620de9', '19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773'}
+2019-01-18 10:38:11 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:41:58 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:41:58.830586
+2019-01-18 10:41:58 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:41:58 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:41:58 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:41:58 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:00 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:42:00.404983
+2019-01-18 10:42:00 engine.py [line:70] INFO: 耗时：1.57
+2019-01-18 10:42:00 engine.py [line:71] INFO: 总的请求数量:11
+2019-01-18 10:42:00 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:42:00 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', '19648883befbae40a3c684eab3c7f85c074260a5', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '0db802b6d3caa8b4df28092315892ae53c79e773'}
+2019-01-18 10:42:00 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:42:01 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:42:01.796102
+2019-01-18 10:42:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:03 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:42:03.316894
+2019-01-18 10:42:03 engine.py [line:70] INFO: 耗时：1.52
+2019-01-18 10:42:03 engine.py [line:71] INFO: 总的请求数量:11
+2019-01-18 10:42:03 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:42:03 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '0db802b6d3caa8b4df28092315892ae53c79e773', '19648883befbae40a3c684eab3c7f85c074260a5', 'bc228721d02c108761fc1f34932bc089ff620de9', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-18 10:42:03 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:42:05 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:42:05.041567
+2019-01-18 10:42:05 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:05 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:05 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:05 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:19 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:42:19.703589
+2019-01-18 10:42:19 engine.py [line:70] INFO: 耗时：14.66
+2019-01-18 10:42:19 engine.py [line:71] INFO: 总的请求数量:11
+2019-01-18 10:42:19 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:42:19 engine.py [line:73] INFO: 去重容器内的url : {'bc228721d02c108761fc1f34932bc089ff620de9', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773'}
+2019-01-18 10:42:19 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:42:24 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:42:24.405453
+2019-01-18 10:42:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:25 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:42:25.760945
+2019-01-18 10:42:25 engine.py [line:70] INFO: 耗时：1.36
+2019-01-18 10:42:25 engine.py [line:71] INFO: 总的请求数量:11
+2019-01-18 10:42:25 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:42:25 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'bc228721d02c108761fc1f34932bc089ff620de9', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773'}
+2019-01-18 10:42:25 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:42:27 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:42:27.541635
+2019-01-18 10:42:27 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:27 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:27 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:27 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:42:27.544585
+2019-01-18 10:42:27 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:42:27 engine.py [line:70] INFO: 耗时：0.00
+2019-01-18 10:42:27 engine.py [line:71] INFO: 总的请求数量:7
+2019-01-18 10:42:27 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:42:27 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-18 10:42:27 engine.py [line:74] INFO: 总的响应数量:0
+2019-01-18 10:43:26 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:43:26.065380
+2019-01-18 10:43:26 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:26 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:26 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:26 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:29 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:43:29.101235
+2019-01-18 10:43:29 engine.py [line:70] INFO: 耗时：3.04
+2019-01-18 10:43:29 engine.py [line:71] INFO: 总的请求数量:11
+2019-01-18 10:43:29 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:43:29 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '0db802b6d3caa8b4df28092315892ae53c79e773', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '73094806f1e0a04aca58c8dd19d0e79d376260d6', 'bc228721d02c108761fc1f34932bc089ff620de9', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2'}
+2019-01-18 10:43:29 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:43:33 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:43:33.049030
+2019-01-18 10:43:33 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:33 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:33 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:33 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:35 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:43:35.115285
+2019-01-18 10:43:35 engine.py [line:70] INFO: 耗时：2.07
+2019-01-18 10:43:35 engine.py [line:71] INFO: 总的请求数量:11
+2019-01-18 10:43:35 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:43:35 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '0db802b6d3caa8b4df28092315892ae53c79e773', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', 'bc228721d02c108761fc1f34932bc089ff620de9', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-18 10:43:35 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:43:39 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:43:39.432060
+2019-01-18 10:43:39 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:39 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:39 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:39 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:41 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:43:41.538221
+2019-01-18 10:43:41 engine.py [line:70] INFO: 耗时：2.11
+2019-01-18 10:43:41 engine.py [line:71] INFO: 总的请求数量:11
+2019-01-18 10:43:41 engine.py [line:72] INFO: 总的重复请求数量:4
+2019-01-18 10:43:41 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', '0db802b6d3caa8b4df28092315892ae53c79e773', '19648883befbae40a3c684eab3c7f85c074260a5', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822'}
+2019-01-18 10:43:41 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:43:54 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:43:54.689096
+2019-01-18 10:43:54 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:54 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:54 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:54 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:54 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:54 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:54 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:54 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:54 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:43:56 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:43:56.987917
+2019-01-18 10:43:56 engine.py [line:70] INFO: 耗时：2.30
+2019-01-18 10:43:56 engine.py [line:71] INFO: 总的请求数量:16
+2019-01-18 10:43:56 engine.py [line:72] INFO: 总的重复请求数量:9
+2019-01-18 10:43:56 engine.py [line:73] INFO: 去重容器内的url : {'40f1815eca53bbc2758fa2f05991a9f2b08fb822', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5', '73094806f1e0a04aca58c8dd19d0e79d376260d6', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773'}
+2019-01-18 10:43:56 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:44:57 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:44:57.017644
+2019-01-18 10:44:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:44:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:44:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:44:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:44:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:44:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:44:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:44:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:44:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:44:58 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:44:58.897401
+2019-01-18 10:44:58 engine.py [line:70] INFO: 耗时：1.88
+2019-01-18 10:44:58 engine.py [line:71] INFO: 总的请求数量:16
+2019-01-18 10:44:58 engine.py [line:72] INFO: 总的重复请求数量:9
+2019-01-18 10:44:58 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '19648883befbae40a3c684eab3c7f85c074260a5', 'bc228721d02c108761fc1f34932bc089ff620de9', '0db802b6d3caa8b4df28092315892ae53c79e773', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '40f1815eca53bbc2758fa2f05991a9f2b08fb822'}
+2019-01-18 10:44:58 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:45:01 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:45:01.287872
+2019-01-18 10:45:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:03 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:45:03.103710
+2019-01-18 10:45:03 engine.py [line:70] INFO: 耗时：1.82
+2019-01-18 10:45:03 engine.py [line:71] INFO: 总的请求数量:16
+2019-01-18 10:45:03 engine.py [line:72] INFO: 总的重复请求数量:9
+2019-01-18 10:45:03 engine.py [line:73] INFO: 去重容器内的url : {'0db802b6d3caa8b4df28092315892ae53c79e773', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', 'bc228721d02c108761fc1f34932bc089ff620de9', '19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '73094806f1e0a04aca58c8dd19d0e79d376260d6'}
+2019-01-18 10:45:03 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:45:04 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:45:04.727793
+2019-01-18 10:45:04 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:04 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:04 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:04 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:04 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:04 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:04 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:04 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:04 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:06 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:45:06.617561
+2019-01-18 10:45:06 engine.py [line:70] INFO: 耗时：1.89
+2019-01-18 10:45:06 engine.py [line:71] INFO: 总的请求数量:16
+2019-01-18 10:45:06 engine.py [line:72] INFO: 总的重复请求数量:9
+2019-01-18 10:45:06 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '0db802b6d3caa8b4df28092315892ae53c79e773', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '73094806f1e0a04aca58c8dd19d0e79d376260d6', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2'}
+2019-01-18 10:45:06 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:45:08 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:45:08.357684
+2019-01-18 10:45:08 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:08 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:08 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:08 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:08 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:08 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:08 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:08 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:08 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:10 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:45:10.395393
+2019-01-18 10:45:10 engine.py [line:70] INFO: 耗时：2.04
+2019-01-18 10:45:10 engine.py [line:71] INFO: 总的请求数量:16
+2019-01-18 10:45:10 engine.py [line:72] INFO: 总的重复请求数量:9
+2019-01-18 10:45:10 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773', '73094806f1e0a04aca58c8dd19d0e79d376260d6', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', 'bc228721d02c108761fc1f34932bc089ff620de9'}
+2019-01-18 10:45:10 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 10:45:18 engine.py [line:66] INFO: 开始运行时间：2019-01-18 10:45:18.551514
+2019-01-18 10:45:18 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:18 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:18 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 10:45:20 engine.py [line:69] INFO: 运行结束时间：2019-01-18 10:45:20.660503
+2019-01-18 10:45:20 engine.py [line:70] INFO: 耗时：2.11
+2019-01-18 10:45:20 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-18 10:45:20 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-18 10:45:20 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '0db802b6d3caa8b4df28092315892ae53c79e773', '73094806f1e0a04aca58c8dd19d0e79d376260d6', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '40f1815eca53bbc2758fa2f05991a9f2b08fb822'}
+2019-01-18 10:45:20 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-18 11:17:53 engine.py [line:66] INFO: 开始运行时间：2019-01-18 11:17:53.048652
+2019-01-18 11:17:53 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 11:17:53 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 11:17:53 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-18 11:17:55 engine.py [line:69] INFO: 运行结束时间：2019-01-18 11:17:55.511381
+2019-01-18 11:17:55 engine.py [line:70] INFO: 耗时：2.46
+2019-01-18 11:17:55 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-18 11:17:55 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-18 11:17:55 engine.py [line:73] INFO: 去重容器内的url : {'bc228721d02c108761fc1f34932bc089ff620de9', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '19648883befbae40a3c684eab3c7f85c074260a5', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773'}
+2019-01-18 11:17:55 engine.py [line:74] INFO: 总的响应数量:7

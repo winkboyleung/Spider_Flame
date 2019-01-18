@@ -20,7 +20,9 @@ from scrapy_plus.utils.log import logger
 from datetime import datetime
 import importlib
 from scrapy_plus.project_dir.spiders.douban_spider import DoubanSpider
-from scrapy_plus.conf.settings import SPIDERS, PIPELINES, DOWNLOADER_MIDDLEWARES, SPIDER_MIDDLEWARES
+from scrapy_plus.conf.settings import SPIDERS, PIPELINES, DOWNLOADER_MIDDLEWARES, SPIDER_MIDDLEWARES, MAX_ASYNC_THREAD_NUMBER
+
+from multiprocessing.dummy import Pool
 
 
 class Engine:
@@ -42,16 +44,21 @@ class Engine:
         # 总请求数量
         self.total_request_nums = 0
 
+        # 线程池对象
+        self.pool = Pool()
+        # 递归函数关闭机制 默认为关闭false
+        self.is_running = False
+
 
     def _auto_import_instances(self, path = []):
         instance = {}
         for each in path:
-            module_name = each.rsplit('.', 1)[0]
-            class_name = each.rsplit('.', 1)[1]
-            ret = importlib.import_module(module_name)
-            spider = getattr(ret, class_name)
-            instance[spider.name] = spider()
-        return instance
+            module_name = each.rsplit('.', 1)[0]    # 取出模块名称
+            class_name = each.rsplit('.', 1)[1]     # 取出类名称
+            ret = importlib.import_module(module_name)  # 动态导入爬虫模块
+            spider = getattr(ret, class_name)       # 根据类名称获取类对象
+            instance[spider.name] = spider()        # 组装成爬虫字典{spider_name:spider(),}
+        return instance                             # 返回类对象字典或列表
 
 
     def start(self):
@@ -147,13 +154,25 @@ class Engine:
             self.total_response_nums += 1
 
 
+    def _call_back(self, temp):
+        if self.is_running:
+            self.pool.apply_async(self.process_request, callback = self._call_back)
+
+
     def _start_engine(self):
-        self.get_request()
+        self.is_running = True
+        # 处理strat_urls产生的request
+        self.pool.apply_async(self.get_request)
+        # 设置中配置的线程数量
+        for loop in range(MAX_ASYNC_THREAD_NUMBER):
+            self.pool.apply_async(self.process_request, callback = self._call_back)
 
         while 1:
             time.sleep(0.001)
-            self.process_request()
-
-            if self.total_response_nums + self.scheduler.repeat_request_nums >= self.total_request_nums:
-                logger.info("程序结束")
-                break
+            # 因为异步，需要增加判断，响应数不能为0
+            if self.total_response_nums != 0:
+                # 成功的响应数+重复的数量>=总的请求数量 程序结束
+                if self.total_response_nums + self.scheduler.repeat_request_nums >= self.total_request_nums:
+                    # logger.info("程序结束")
+                    self.is_running = False
+                    break
