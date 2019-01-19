@@ -81,8 +81,6 @@ class Engine:
         start = datetime.now()
         logger.info("开始运行时间：%s" % start)  # 使用日志记录起始运行时间
         self._start_engine()
-        self.pool.close()
-        self.pool.join()
         stop = datetime.now()
         logger.info("运行结束时间：%s" % stop)  # 使用日志记录结束运行时间
         logger.info("耗时：%.2f" % (stop - start).total_seconds())  # 使用日志记录运行耗时
@@ -178,8 +176,8 @@ class Engine:
         while 1:
             time.sleep(0.001)
             # self.process_request()
-
-            if self.total_response_nums + self.scheduler.request_repeat_nums >= self.total_request_nums:
-                self.is_running = False
-                # logger.info("程序结束")
-                break
+            if self.total_response_nums != 0:
+                if self.total_response_nums + self.scheduler.request_repeat_nums >= self.total_request_nums:
+                    self.is_running = False
+                    # logger.info("程序结束")
+                    break

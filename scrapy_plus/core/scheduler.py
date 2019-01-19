@@ -15,7 +15,10 @@ class Scheduler:
         self._filter_container = set()
 
     def add_request(self, request):
-        if self._filter_request(request):
+        if request.filter:
+            if self._filter_request(request):
+                self.queue.put(request)
+        else:
             self.queue.put(request)
 
     def get_request(self):
