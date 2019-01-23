@@ -3,7 +3,7 @@ import random
 from scrapy_plus.project_dir.proxies_ip import add_proxies_ip
 
 
-class BaiduMiddleware:
+class Xiangxi_public_SpiderMiddleware:
 
     def process_request(self, request):
         '''处理请求头，添加默认的user-agent'''

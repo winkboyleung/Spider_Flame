@@ -1,5 +1,5 @@
-from scrapy_plus.project_dir.spiders.baidu_spider import BaiduSpider
-from scrapy_plus.project_dir.spiders.douban_spider import DoubanSpider
+# from scrapy_plus.project_dir.spiders.xiangxi_public_spider import xiangxi_public_spider
+# from scrapy_plus.project_dir.spiders.douban_spider import DoubanSpider
 import time
 import pymysql
 

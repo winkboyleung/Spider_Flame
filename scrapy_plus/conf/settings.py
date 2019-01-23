@@ -4,10 +4,16 @@ from scrapy_plus.project_dir.settings import *
 import redis
 
 
-SPIDERS = ['spiders.baidu_spider.BaiduSpider', 'spiders.douban_spider.DoubanSpider']
+SPIDERS = [
+            'spiders.xiangxi_public_spider.Xiangxi_public_Spider',  # 湘西公共政府采购网
+            'spiders.douban_spider.DoubanSpider',
+        ]
 
 # 这个并没有用到
-PIPELINES = ['pipelines.BaiduPipeline', 'pipelines.DoubanPipeline']
+PIPELINES = [
+            'pipelines.BaiduPipeline',
+            'pipelines.DoubanPipeline',
+        ]
 
 # 启用的爬虫中间件类
 SPIDER_MIDDLEWARES = []

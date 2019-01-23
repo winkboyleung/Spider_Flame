@@ -14,10 +14,11 @@ from scrapy_plus.project_dir.quit_spider import quit
 # 导入邮箱功能用于xpath提取规则出错时使用
 from scrapy_plus.utils.STMP import send_mail_when_error
 
+'''http://ggzyjy.xxz.gov.cn/jyxx/aboutjyxxsearch.html@湘西公共资源交易网'''
 
-class BaiduSpider(Spider):
+class Xiangxi_public_Spider(Spider):
 
-    name = 'baidu'
+    name = 'xiangxi_public_spider'
 
     start_urls = ['https://httpbin.org/get']
 
@@ -31,11 +32,9 @@ class BaiduSpider(Spider):
             self.regularExpression = f.read()
 
     def start_request(self):
+        # 采购信息 （汇总了所有分类） 共227页 每天更新数据跨度1页
         url = 'http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist'
         for page in range(0, 2):
-
-            # if nums == 4:
-            #     raise Exception
             data = {
                 'CatgoryNum': '005',
                 # 该网页从第一页从0开始
@@ -48,7 +47,7 @@ class BaiduSpider(Spider):
         response = json.loads(response.body)
         each_page_infos = json.loads(response['custom'])['data']
 
-        for each_info in each_page_infos[:2]:
+        for each_info in each_page_infos:
 
             items = {}
             items['title'] = ''
