@@ -643,3 +643,832 @@
 2019-01-18 11:17:55 engine.py [line:72] INFO: 总的重复请求数量:3
 2019-01-18 11:17:55 engine.py [line:73] INFO: 去重容器内的url : {'bc228721d02c108761fc1f34932bc089ff620de9', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '19648883befbae40a3c684eab3c7f85c074260a5', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773'}
 2019-01-18 11:17:55 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 11:05:36 engine.py [line:66] INFO: 开始运行时间：2019-01-22 11:05:36.882716
+2019-01-22 11:05:36 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:05:36 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:05:36 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:05:39 engine.py [line:69] INFO: 运行结束时间：2019-01-22 11:05:39.138543
+2019-01-22 11:05:39 engine.py [line:70] INFO: 耗时：2.26
+2019-01-22 11:05:39 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 11:05:39 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 11:05:39 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773', '19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '73094806f1e0a04aca58c8dd19d0e79d376260d6', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', 'bc228721d02c108761fc1f34932bc089ff620de9'}
+2019-01-22 11:05:39 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 11:06:10 engine.py [line:66] INFO: 开始运行时间：2019-01-22 11:06:10.045464
+2019-01-22 11:06:10 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:06:10 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:06:10 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:06:12 engine.py [line:69] INFO: 运行结束时间：2019-01-22 11:06:12.061798
+2019-01-22 11:06:12 engine.py [line:70] INFO: 耗时：2.02
+2019-01-22 11:06:12 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 11:06:12 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 11:06:12 engine.py [line:73] INFO: 去重容器内的url : {'bc228721d02c108761fc1f34932bc089ff620de9', '0db802b6d3caa8b4df28092315892ae53c79e773', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '40f1815eca53bbc2758fa2f05991a9f2b08fb822'}
+2019-01-22 11:06:12 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 11:06:54 engine.py [line:66] INFO: 开始运行时间：2019-01-22 11:06:54.132695
+2019-01-22 11:06:54 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:06:54 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:06:54 engine.py [line:69] INFO: 运行结束时间：2019-01-22 11:06:54.442446
+2019-01-22 11:06:54 engine.py [line:70] INFO: 耗时：0.31
+2019-01-22 11:06:54 engine.py [line:71] INFO: 总的请求数量:3
+2019-01-22 11:06:54 engine.py [line:72] INFO: 总的重复请求数量:2
+2019-01-22 11:06:54 engine.py [line:73] INFO: 去重容器内的url : {'bc228721d02c108761fc1f34932bc089ff620de9'}
+2019-01-22 11:06:54 engine.py [line:74] INFO: 总的响应数量:1
+2019-01-22 11:07:14 engine.py [line:66] INFO: 开始运行时间：2019-01-22 11:07:14.364987
+2019-01-22 11:07:14 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:07:14 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:07:14 engine.py [line:69] INFO: 运行结束时间：2019-01-22 11:07:14.618593
+2019-01-22 11:07:14 engine.py [line:70] INFO: 耗时：0.25
+2019-01-22 11:07:14 engine.py [line:71] INFO: 总的请求数量:3
+2019-01-22 11:07:14 engine.py [line:72] INFO: 总的重复请求数量:2
+2019-01-22 11:07:14 engine.py [line:73] INFO: 去重容器内的url : {'bc228721d02c108761fc1f34932bc089ff620de9'}
+2019-01-22 11:07:14 engine.py [line:74] INFO: 总的响应数量:1
+2019-01-22 11:12:00 engine.py [line:66] INFO: 开始运行时间：2019-01-22 11:12:00.179406
+2019-01-22 11:12:00 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:12:00 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:12:00 engine.py [line:69] INFO: 运行结束时间：2019-01-22 11:12:00.290608
+2019-01-22 11:12:00 engine.py [line:70] INFO: 耗时：0.11
+2019-01-22 11:12:00 engine.py [line:71] INFO: 总的请求数量:3
+2019-01-22 11:12:00 engine.py [line:72] INFO: 总的重复请求数量:2
+2019-01-22 11:12:00 engine.py [line:73] INFO: 去重容器内的url : {'bc228721d02c108761fc1f34932bc089ff620de9'}
+2019-01-22 11:12:00 engine.py [line:74] INFO: 总的响应数量:1
+2019-01-22 11:12:22 engine.py [line:66] INFO: 开始运行时间：2019-01-22 11:12:22.192162
+2019-01-22 11:12:22 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:12:22 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:12:22 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 11:12:24 engine.py [line:69] INFO: 运行结束时间：2019-01-22 11:12:24.033669
+2019-01-22 11:12:24 engine.py [line:70] INFO: 耗时：1.84
+2019-01-22 11:12:24 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 11:12:24 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 11:12:24 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '0db802b6d3caa8b4df28092315892ae53c79e773', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '40f1815eca53bbc2758fa2f05991a9f2b08fb822'}
+2019-01-22 11:12:24 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 12:06:09 engine.py [line:66] INFO: 开始运行时间：2019-01-22 12:06:09.117309
+2019-01-22 12:06:09 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 12:06:09 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 12:06:09 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 12:06:10 engine.py [line:69] INFO: 运行结束时间：2019-01-22 12:06:10.357511
+2019-01-22 12:06:10 engine.py [line:70] INFO: 耗时：1.24
+2019-01-22 12:06:10 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 12:06:10 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 12:06:10 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 12:06:10 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 12:06:34 engine.py [line:66] INFO: 开始运行时间：2019-01-22 12:06:34.768998
+2019-01-22 12:06:34 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 12:06:34 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 12:06:34 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 12:06:36 engine.py [line:69] INFO: 运行结束时间：2019-01-22 12:06:36.114148
+2019-01-22 12:06:36 engine.py [line:70] INFO: 耗时：1.35
+2019-01-22 12:06:36 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 12:06:36 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 12:06:36 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', '0db802b6d3caa8b4df28092315892ae53c79e773', '19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', 'bc228721d02c108761fc1f34932bc089ff620de9', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2'}
+2019-01-22 12:06:36 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 12:09:53 engine.py [line:66] INFO: 开始运行时间：2019-01-22 12:09:53.448563
+2019-01-22 12:09:53 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 12:09:53 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 12:09:53 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 12:09:55 engine.py [line:69] INFO: 运行结束时间：2019-01-22 12:09:55.512502
+2019-01-22 12:09:55 engine.py [line:70] INFO: 耗时：2.06
+2019-01-22 12:09:55 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 12:09:55 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 12:09:55 engine.py [line:73] INFO: 去重容器内的url : {'40f1815eca53bbc2758fa2f05991a9f2b08fb822', '0db802b6d3caa8b4df28092315892ae53c79e773', 'bc228721d02c108761fc1f34932bc089ff620de9', '19648883befbae40a3c684eab3c7f85c074260a5', '73094806f1e0a04aca58c8dd19d0e79d376260d6', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-22 12:09:55 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 12:27:16 engine.py [line:66] INFO: 开始运行时间：2019-01-22 12:27:16.891530
+2019-01-22 12:27:16 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 12:27:16 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 12:27:16 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 12:27:18 engine.py [line:69] INFO: 运行结束时间：2019-01-22 12:27:18.295062
+2019-01-22 12:27:18 engine.py [line:70] INFO: 耗时：1.40
+2019-01-22 12:27:18 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 12:27:18 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 12:27:18 engine.py [line:73] INFO: 去重容器内的url : {'40f1815eca53bbc2758fa2f05991a9f2b08fb822', 'bc228721d02c108761fc1f34932bc089ff620de9', '19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773'}
+2019-01-22 12:27:18 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 14:03:24 engine.py [line:66] INFO: 开始运行时间：2019-01-22 14:03:24.210790
+2019-01-22 14:03:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 14:03:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 14:03:24 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 14:03:26 engine.py [line:69] INFO: 运行结束时间：2019-01-22 14:03:26.335871
+2019-01-22 14:03:26 engine.py [line:70] INFO: 耗时：2.13
+2019-01-22 14:03:26 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 14:03:26 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 14:03:26 engine.py [line:73] INFO: 去重容器内的url : {'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773', 'bc228721d02c108761fc1f34932bc089ff620de9'}
+2019-01-22 14:03:26 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 14:05:32 engine.py [line:66] INFO: 开始运行时间：2019-01-22 14:05:32.827038
+2019-01-22 14:05:32 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 14:05:32 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 14:05:32 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 14:05:34 engine.py [line:69] INFO: 运行结束时间：2019-01-22 14:05:34.862217
+2019-01-22 14:05:34 engine.py [line:70] INFO: 耗时：2.04
+2019-01-22 14:05:34 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 14:05:34 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 14:05:34 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'bc228721d02c108761fc1f34932bc089ff620de9', '0db802b6d3caa8b4df28092315892ae53c79e773', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2'}
+2019-01-22 14:05:34 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 14:10:22 engine.py [line:66] INFO: 开始运行时间：2019-01-22 14:10:22.925428
+2019-01-22 14:10:22 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:10:22 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:10:22 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:10:25 engine.py [line:69] INFO: 运行结束时间：2019-01-22 14:10:25.637378
+2019-01-22 14:10:25 engine.py [line:70] INFO: 耗时：2.71
+2019-01-22 14:10:25 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 14:10:25 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 14:10:25 engine.py [line:73] INFO: 去重容器内的url : {'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '0db802b6d3caa8b4df28092315892ae53c79e773', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '19648883befbae40a3c684eab3c7f85c074260a5', '7eec524519b2a9f3138fe802a5b3f0c3f9bddce8'}
+2019-01-22 14:10:25 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 14:18:44 engine.py [line:66] INFO: 开始运行时间：2019-01-22 14:18:44.746157
+2019-01-22 14:18:44 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:18:44 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:18:44 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:18:49 engine.py [line:69] INFO: 运行结束时间：2019-01-22 14:18:49.733960
+2019-01-22 14:18:49 engine.py [line:70] INFO: 耗时：4.99
+2019-01-22 14:18:49 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 14:18:49 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 14:18:49 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '7eec524519b2a9f3138fe802a5b3f0c3f9bddce8', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773'}
+2019-01-22 14:18:49 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 14:19:38 engine.py [line:66] INFO: 开始运行时间：2019-01-22 14:19:38.528474
+2019-01-22 14:19:38 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:19:38 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:19:38 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:19:40 engine.py [line:69] INFO: 运行结束时间：2019-01-22 14:19:40.487862
+2019-01-22 14:19:40 engine.py [line:70] INFO: 耗时：1.96
+2019-01-22 14:19:40 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 14:19:40 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 14:19:40 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '7eec524519b2a9f3138fe802a5b3f0c3f9bddce8', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '73094806f1e0a04aca58c8dd19d0e79d376260d6'}
+2019-01-22 14:19:40 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 14:20:01 engine.py [line:66] INFO: 开始运行时间：2019-01-22 14:20:01.094120
+2019-01-22 14:20:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:20:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:20:01 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:20:03 engine.py [line:69] INFO: 运行结束时间：2019-01-22 14:20:03.011979
+2019-01-22 14:20:03 engine.py [line:70] INFO: 耗时：1.92
+2019-01-22 14:20:03 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 14:20:03 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 14:20:03 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', '0db802b6d3caa8b4df28092315892ae53c79e773', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '7eec524519b2a9f3138fe802a5b3f0c3f9bddce8', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 14:20:03 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 14:23:43 engine.py [line:66] INFO: 开始运行时间：2019-01-22 14:23:43.091416
+2019-01-22 14:23:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:23:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:23:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:23:45 engine.py [line:69] INFO: 运行结束时间：2019-01-22 14:23:45.278595
+2019-01-22 14:23:45 engine.py [line:70] INFO: 耗时：2.19
+2019-01-22 14:23:45 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 14:23:45 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 14:23:45 engine.py [line:73] INFO: 去重容器内的url : {'7eec524519b2a9f3138fe802a5b3f0c3f9bddce8', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '0db802b6d3caa8b4df28092315892ae53c79e773', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 14:23:45 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 14:25:11 engine.py [line:66] INFO: 开始运行时间：2019-01-22 14:25:11.156213
+2019-01-22 14:25:11 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:25:11 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:25:11 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:25:13 engine.py [line:69] INFO: 运行结束时间：2019-01-22 14:25:13.543919
+2019-01-22 14:25:13 engine.py [line:70] INFO: 耗时：2.39
+2019-01-22 14:25:13 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 14:25:13 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 14:25:13 engine.py [line:73] INFO: 去重容器内的url : {'7eec524519b2a9f3138fe802a5b3f0c3f9bddce8', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773'}
+2019-01-22 14:25:13 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 14:27:05 engine.py [line:66] INFO: 开始运行时间：2019-01-22 14:27:05.302483
+2019-01-22 14:27:05 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:27:05 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:27:05 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:27:08 engine.py [line:69] INFO: 运行结束时间：2019-01-22 14:27:08.072722
+2019-01-22 14:27:08 engine.py [line:70] INFO: 耗时：2.77
+2019-01-22 14:27:08 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 14:27:08 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 14:27:08 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '7eec524519b2a9f3138fe802a5b3f0c3f9bddce8', '0db802b6d3caa8b4df28092315892ae53c79e773', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '40f1815eca53bbc2758fa2f05991a9f2b08fb822'}
+2019-01-22 14:27:08 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 14:30:06 engine.py [line:66] INFO: 开始运行时间：2019-01-22 14:30:06.137783
+2019-01-22 14:30:06 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:30:06 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:30:06 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:30:08 engine.py [line:69] INFO: 运行结束时间：2019-01-22 14:30:08.807625
+2019-01-22 14:30:08 engine.py [line:70] INFO: 耗时：2.67
+2019-01-22 14:30:08 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 14:30:08 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 14:30:08 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '7eec524519b2a9f3138fe802a5b3f0c3f9bddce8', '0db802b6d3caa8b4df28092315892ae53c79e773', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 14:30:08 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 14:33:42 engine.py [line:66] INFO: 开始运行时间：2019-01-22 14:33:42.898037
+2019-01-22 14:33:42 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:33:42 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:33:42 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:33:45 engine.py [line:69] INFO: 运行结束时间：2019-01-22 14:33:45.030540
+2019-01-22 14:33:45 engine.py [line:70] INFO: 耗时：2.13
+2019-01-22 14:33:45 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 14:33:45 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 14:33:45 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '0db802b6d3caa8b4df28092315892ae53c79e773', '19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '7eec524519b2a9f3138fe802a5b3f0c3f9bddce8'}
+2019-01-22 14:33:45 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 14:37:09 engine.py [line:66] INFO: 开始运行时间：2019-01-22 14:37:09.218914
+2019-01-22 14:37:09 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:37:09 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:37:09 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:37:11 engine.py [line:69] INFO: 运行结束时间：2019-01-22 14:37:11.761807
+2019-01-22 14:37:11 engine.py [line:70] INFO: 耗时：2.54
+2019-01-22 14:37:11 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 14:37:11 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 14:37:11 engine.py [line:73] INFO: 去重容器内的url : {'0db802b6d3caa8b4df28092315892ae53c79e773', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '7eec524519b2a9f3138fe802a5b3f0c3f9bddce8', '19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2'}
+2019-01-22 14:37:11 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 14:37:45 engine.py [line:66] INFO: 开始运行时间：2019-01-22 14:37:45.643975
+2019-01-22 14:37:45 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:37:45 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:37:45 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:37:49 engine.py [line:69] INFO: 运行结束时间：2019-01-22 14:37:49.404947
+2019-01-22 14:37:49 engine.py [line:70] INFO: 耗时：3.76
+2019-01-22 14:37:49 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 14:37:49 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 14:37:49 engine.py [line:73] INFO: 去重容器内的url : {'7eec524519b2a9f3138fe802a5b3f0c3f9bddce8', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '0db802b6d3caa8b4df28092315892ae53c79e773', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 14:37:49 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 14:38:35 engine.py [line:66] INFO: 开始运行时间：2019-01-22 14:38:35.233433
+2019-01-22 14:38:35 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:38:35 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:38:35 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 14:38:37 engine.py [line:69] INFO: 运行结束时间：2019-01-22 14:38:37.873575
+2019-01-22 14:38:37 engine.py [line:70] INFO: 耗时：2.64
+2019-01-22 14:38:37 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 14:38:37 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 14:38:37 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '7eec524519b2a9f3138fe802a5b3f0c3f9bddce8', '19648883befbae40a3c684eab3c7f85c074260a5', '0db802b6d3caa8b4df28092315892ae53c79e773'}
+2019-01-22 14:38:37 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:22:57 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:22:57.847440
+2019-01-22 15:22:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 15:22:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 15:22:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 15:23:00 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:23:00.196995
+2019-01-22 15:23:00 engine.py [line:70] INFO: 耗时：2.35
+2019-01-22 15:23:00 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:23:00 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:23:00 engine.py [line:73] INFO: 去重容器内的url : {'0db802b6d3caa8b4df28092315892ae53c79e773', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '19648883befbae40a3c684eab3c7f85c074260a5', '7eec524519b2a9f3138fe802a5b3f0c3f9bddce8'}
+2019-01-22 15:23:00 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:36:54 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:36:54.781579
+2019-01-22 15:36:54 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 15:36:54 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 15:36:54 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 15:36:56 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:36:56.866770
+2019-01-22 15:36:56 engine.py [line:70] INFO: 耗时：2.09
+2019-01-22 15:36:56 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:36:56 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:36:56 engine.py [line:73] INFO: 去重容器内的url : {'40f1815eca53bbc2758fa2f05991a9f2b08fb822', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '19648883befbae40a3c684eab3c7f85c074260a5', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '0db802b6d3caa8b4df28092315892ae53c79e773', '7eec524519b2a9f3138fe802a5b3f0c3f9bddce8'}
+2019-01-22 15:36:56 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:41:15 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:41:15.398177
+2019-01-22 15:41:15 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 15:41:15 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 15:41:15 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 15:41:21 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:41:21.737665
+2019-01-22 15:41:21 engine.py [line:70] INFO: 耗时：6.34
+2019-01-22 15:41:21 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:41:21 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:41:21 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '0db802b6d3caa8b4df28092315892ae53c79e773', '7eec524519b2a9f3138fe802a5b3f0c3f9bddce8', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 15:41:21 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:42:51 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:42:51.011409
+2019-01-22 15:42:51 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 15:42:51 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 15:42:51 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 15:42:52 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:42:52.650271
+2019-01-22 15:42:52 engine.py [line:70] INFO: 耗时：1.64
+2019-01-22 15:42:52 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:42:52 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:42:52 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', 'bc228721d02c108761fc1f34932bc089ff620de9', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 15:42:52 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:43:58 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:43:58.572679
+2019-01-22 15:43:58 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 15:43:58 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 15:43:58 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.ip138.com/>
+2019-01-22 15:44:00 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:44:00.585757
+2019-01-22 15:44:00 engine.py [line:70] INFO: 耗时：2.01
+2019-01-22 15:44:00 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:44:00 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:44:00 engine.py [line:73] INFO: 去重容器内的url : {'40f1815eca53bbc2758fa2f05991a9f2b08fb822', '0db802b6d3caa8b4df28092315892ae53c79e773', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '7eec524519b2a9f3138fe802a5b3f0c3f9bddce8', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 15:44:00 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:49:13 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:49:13.322410
+2019-01-22 15:49:13 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 15:49:13 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 15:49:13 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 15:49:15 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:49:15.399423
+2019-01-22 15:49:15 engine.py [line:70] INFO: 耗时：2.08
+2019-01-22 15:49:15 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:49:15 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:49:15 engine.py [line:73] INFO: 去重容器内的url : {'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '73094806f1e0a04aca58c8dd19d0e79d376260d6', 'bc228721d02c108761fc1f34932bc089ff620de9', '19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822'}
+2019-01-22 15:49:15 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:49:34 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:49:34.792008
+2019-01-22 15:49:34 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 15:49:34 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 15:49:34 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://www.baidu.com>
+2019-01-22 15:49:37 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:49:37.061802
+2019-01-22 15:49:37 engine.py [line:70] INFO: 耗时：2.27
+2019-01-22 15:49:37 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:49:37 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:49:37 engine.py [line:73] INFO: 去重容器内的url : {'40f1815eca53bbc2758fa2f05991a9f2b08fb822', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773', '73094806f1e0a04aca58c8dd19d0e79d376260d6', 'bc228721d02c108761fc1f34932bc089ff620de9'}
+2019-01-22 15:49:37 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:50:58 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:50:58.050999
+2019-01-22 15:50:58 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:50:58 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:50:58 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:51:00 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:51:00.893960
+2019-01-22 15:51:00 engine.py [line:70] INFO: 耗时：2.84
+2019-01-22 15:51:00 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:51:00 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:51:00 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '27830668c9437ac220e2792244fb6f49eb9b0554', '0db802b6d3caa8b4df28092315892ae53c79e773', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2'}
+2019-01-22 15:51:00 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:51:57 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:51:57.207160
+2019-01-22 15:51:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:51:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:51:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:52:00 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:52:00.339577
+2019-01-22 15:52:00 engine.py [line:70] INFO: 耗时：3.13
+2019-01-22 15:52:00 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:52:00 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:52:00 engine.py [line:73] INFO: 去重容器内的url : {'0db802b6d3caa8b4df28092315892ae53c79e773', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '27830668c9437ac220e2792244fb6f49eb9b0554', '19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822'}
+2019-01-22 15:52:00 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:54:23 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:54:23.059116
+2019-01-22 15:54:23 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:54:23 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:54:23 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:54:25 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:54:25.759754
+2019-01-22 15:54:25 engine.py [line:70] INFO: 耗时：2.70
+2019-01-22 15:54:25 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:54:25 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:54:25 engine.py [line:73] INFO: 去重容器内的url : {'0db802b6d3caa8b4df28092315892ae53c79e773', '27830668c9437ac220e2792244fb6f49eb9b0554', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822'}
+2019-01-22 15:54:25 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:54:43 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:54:43.321907
+2019-01-22 15:54:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:54:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:54:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:54:47 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:54:47.239525
+2019-01-22 15:54:47 engine.py [line:70] INFO: 耗时：3.92
+2019-01-22 15:54:47 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:54:47 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:54:47 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '27830668c9437ac220e2792244fb6f49eb9b0554', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '19648883befbae40a3c684eab3c7f85c074260a5', '0db802b6d3caa8b4df28092315892ae53c79e773'}
+2019-01-22 15:54:47 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:54:57 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:54:57.987752
+2019-01-22 15:54:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:54:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:54:57 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:55:00 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:55:00.946526
+2019-01-22 15:55:00 engine.py [line:70] INFO: 耗时：2.96
+2019-01-22 15:55:00 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:55:00 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:55:00 engine.py [line:73] INFO: 去重容器内的url : {'27830668c9437ac220e2792244fb6f49eb9b0554', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773', '73094806f1e0a04aca58c8dd19d0e79d376260d6'}
+2019-01-22 15:55:00 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:56:46 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:56:46.377997
+2019-01-22 15:56:46 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:56:46 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:56:46 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:56:49 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:56:49.566250
+2019-01-22 15:56:49 engine.py [line:70] INFO: 耗时：3.19
+2019-01-22 15:56:49 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:56:49 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:56:49 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '27830668c9437ac220e2792244fb6f49eb9b0554', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 15:56:49 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:57:00 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:57:00.720960
+2019-01-22 15:57:00 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:57:00 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:57:00 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:57:03 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:57:03.605898
+2019-01-22 15:57:03 engine.py [line:70] INFO: 耗时：2.88
+2019-01-22 15:57:03 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:57:03 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:57:03 engine.py [line:73] INFO: 去重容器内的url : {'27830668c9437ac220e2792244fb6f49eb9b0554', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '19648883befbae40a3c684eab3c7f85c074260a5', '0db802b6d3caa8b4df28092315892ae53c79e773'}
+2019-01-22 15:57:03 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 15:57:43 engine.py [line:66] INFO: 开始运行时间：2019-01-22 15:57:43.883860
+2019-01-22 15:57:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:57:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:57:43 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 15:57:46 engine.py [line:69] INFO: 运行结束时间：2019-01-22 15:57:46.919045
+2019-01-22 15:57:46 engine.py [line:70] INFO: 耗时：3.04
+2019-01-22 15:57:46 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 15:57:46 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 15:57:46 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '27830668c9437ac220e2792244fb6f49eb9b0554', '19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822'}
+2019-01-22 15:57:46 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 16:01:13 engine.py [line:66] INFO: 开始运行时间：2019-01-22 16:01:13.434687
+2019-01-22 16:01:13 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 16:01:13 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 16:01:13 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 16:01:16 engine.py [line:69] INFO: 运行结束时间：2019-01-22 16:01:16.682175
+2019-01-22 16:01:16 engine.py [line:70] INFO: 耗时：3.25
+2019-01-22 16:01:16 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 16:01:16 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 16:01:16 engine.py [line:73] INFO: 去重容器内的url : {'0db802b6d3caa8b4df28092315892ae53c79e773', '19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '27830668c9437ac220e2792244fb6f49eb9b0554', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2'}
+2019-01-22 16:01:16 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 16:01:28 engine.py [line:66] INFO: 开始运行时间：2019-01-22 16:01:28.865726
+2019-01-22 16:01:28 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 16:01:28 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 16:01:28 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 16:01:31 engine.py [line:69] INFO: 运行结束时间：2019-01-22 16:01:31.753459
+2019-01-22 16:01:31 engine.py [line:70] INFO: 耗时：2.89
+2019-01-22 16:01:31 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 16:01:31 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 16:01:31 engine.py [line:73] INFO: 去重容器内的url : {'0db802b6d3caa8b4df28092315892ae53c79e773', '27830668c9437ac220e2792244fb6f49eb9b0554', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 16:01:31 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 16:01:42 engine.py [line:66] INFO: 开始运行时间：2019-01-22 16:01:42.767518
+2019-01-22 16:01:42 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 16:01:42 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 16:01:42 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 16:01:45 engine.py [line:69] INFO: 运行结束时间：2019-01-22 16:01:45.655451
+2019-01-22 16:01:45 engine.py [line:70] INFO: 耗时：2.89
+2019-01-22 16:01:45 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 16:01:45 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 16:01:45 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773', '27830668c9437ac220e2792244fb6f49eb9b0554', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 16:01:45 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 16:06:45 engine.py [line:66] INFO: 开始运行时间：2019-01-22 16:06:45.359595
+2019-01-22 16:06:45 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 16:06:45 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 16:06:45 scheduler.py [line:40] INFO: 发现重复的请求：<GET https://httpbin.org/get>
+2019-01-22 16:06:48 engine.py [line:69] INFO: 运行结束时间：2019-01-22 16:06:48.393613
+2019-01-22 16:06:48 engine.py [line:70] INFO: 耗时：3.03
+2019-01-22 16:06:48 engine.py [line:71] INFO: 总的请求数量:10
+2019-01-22 16:06:48 engine.py [line:72] INFO: 总的重复请求数量:3
+2019-01-22 16:06:48 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', '19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773', '27830668c9437ac220e2792244fb6f49eb9b0554'}
+2019-01-22 16:06:48 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 16:32:32 engine.py [line:66] INFO: 开始运行时间：2019-01-22 16:32:32.949618
+2019-01-22 16:32:32 scheduler.py [line:40] INFO: 发现重复的请求：<GET http://www.act.org.cn/Index_Handler.ashx?method=LoadTzggMsg&cache=640&pageIndex={}&pageSize=15&aFlag=2&Xxtype=0>
+2019-01-22 16:32:33 engine.py [line:69] INFO: 运行结束时间：2019-01-22 16:32:33.425914
+2019-01-22 16:32:33 engine.py [line:70] INFO: 耗时：0.48
+2019-01-22 16:32:33 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 16:32:33 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 16:32:33 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '56132588d75c89090fc23a2d0be9173df1dbde82'}
+2019-01-22 16:32:33 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 16:33:06 engine.py [line:66] INFO: 开始运行时间：2019-01-22 16:33:06.422077
+2019-01-22 16:33:08 engine.py [line:69] INFO: 运行结束时间：2019-01-22 16:33:08.656706
+2019-01-22 16:33:08 engine.py [line:70] INFO: 耗时：2.23
+2019-01-22 16:33:08 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 16:33:08 engine.py [line:72] INFO: 总的重复请求数量:0
+2019-01-22 16:33:08 engine.py [line:73] INFO: 去重容器内的url : {'485ec0e8f6531a68833bf3feabbdfc819867087a', '79cc17c41a0837e8f81da267133537319bf95e08', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 16:33:08 engine.py [line:74] INFO: 总的响应数量:4
+2019-01-22 16:33:30 engine.py [line:66] INFO: 开始运行时间：2019-01-22 16:33:30.929221
+2019-01-22 16:33:34 engine.py [line:69] INFO: 运行结束时间：2019-01-22 16:33:34.237614
+2019-01-22 16:33:34 engine.py [line:70] INFO: 耗时：3.31
+2019-01-22 16:33:34 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 16:33:34 engine.py [line:72] INFO: 总的重复请求数量:0
+2019-01-22 16:33:34 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5', '485ec0e8f6531a68833bf3feabbdfc819867087a', '79cc17c41a0837e8f81da267133537319bf95e08'}
+2019-01-22 16:33:34 engine.py [line:74] INFO: 总的响应数量:4
+2019-01-22 16:36:03 engine.py [line:66] INFO: 开始运行时间：2019-01-22 16:36:03.528509
+2019-01-22 16:36:06 engine.py [line:69] INFO: 运行结束时间：2019-01-22 16:36:06.783614
+2019-01-22 16:36:06 engine.py [line:70] INFO: 耗时：3.26
+2019-01-22 16:36:06 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 16:36:06 engine.py [line:72] INFO: 总的重复请求数量:0
+2019-01-22 16:36:06 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '79cc17c41a0837e8f81da267133537319bf95e08', '485ec0e8f6531a68833bf3feabbdfc819867087a'}
+2019-01-22 16:36:06 engine.py [line:74] INFO: 总的响应数量:4
+2019-01-22 16:36:18 engine.py [line:66] INFO: 开始运行时间：2019-01-22 16:36:18.739037
+2019-01-22 16:36:26 engine.py [line:69] INFO: 运行结束时间：2019-01-22 16:36:26.818686
+2019-01-22 16:36:26 engine.py [line:70] INFO: 耗时：8.08
+2019-01-22 16:36:26 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 16:36:26 engine.py [line:72] INFO: 总的重复请求数量:0
+2019-01-22 16:36:26 engine.py [line:73] INFO: 去重容器内的url : {'485ec0e8f6531a68833bf3feabbdfc819867087a', '79cc17c41a0837e8f81da267133537319bf95e08', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 16:36:26 engine.py [line:74] INFO: 总的响应数量:4
+2019-01-22 16:37:25 engine.py [line:66] INFO: 开始运行时间：2019-01-22 16:37:25.041809
+2019-01-22 16:37:29 engine.py [line:69] INFO: 运行结束时间：2019-01-22 16:37:29.996094
+2019-01-22 16:37:29 engine.py [line:70] INFO: 耗时：4.95
+2019-01-22 16:37:29 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 16:37:29 engine.py [line:72] INFO: 总的重复请求数量:0
+2019-01-22 16:37:29 engine.py [line:73] INFO: 去重容器内的url : {'79cc17c41a0837e8f81da267133537319bf95e08', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5', '485ec0e8f6531a68833bf3feabbdfc819867087a'}
+2019-01-22 16:37:29 engine.py [line:74] INFO: 总的响应数量:4
+2019-01-22 16:59:40 engine.py [line:66] INFO: 开始运行时间：2019-01-22 16:59:40.184176
+2019-01-22 16:59:41 engine.py [line:69] INFO: 运行结束时间：2019-01-22 16:59:41.366973
+2019-01-22 16:59:41 engine.py [line:70] INFO: 耗时：1.18
+2019-01-22 16:59:41 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 16:59:41 engine.py [line:72] INFO: 总的重复请求数量:0
+2019-01-22 16:59:41 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '2cc81ede999f38ee616fb2663965278fa3b698d4', 'a879cff7d5c87adfb061a7deb19852f4e203678d', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 16:59:41 engine.py [line:74] INFO: 总的响应数量:4
+2019-01-22 17:00:04 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:00:04.439539
+2019-01-22 17:00:05 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:00:05.218730
+2019-01-22 17:00:05 engine.py [line:70] INFO: 耗时：0.78
+2019-01-22 17:00:05 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:00:05 engine.py [line:72] INFO: 总的重复请求数量:0
+2019-01-22 17:00:05 engine.py [line:73] INFO: 去重容器内的url : {'a879cff7d5c87adfb061a7deb19852f4e203678d', '19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '2cc81ede999f38ee616fb2663965278fa3b698d4'}
+2019-01-22 17:00:05 engine.py [line:74] INFO: 总的响应数量:4
+2019-01-22 17:00:34 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:00:34.981102
+2019-01-22 17:00:34 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:00:36 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:00:36.328114
+2019-01-22 17:00:36 engine.py [line:70] INFO: 耗时：1.35
+2019-01-22 17:00:36 engine.py [line:71] INFO: 总的请求数量:6
+2019-01-22 17:00:36 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:00:36 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '2cc81ede999f38ee616fb2663965278fa3b698d4', '19648883befbae40a3c684eab3c7f85c074260a5', '0db802b6d3caa8b4df28092315892ae53c79e773', '73094806f1e0a04aca58c8dd19d0e79d376260d6'}
+2019-01-22 17:00:36 engine.py [line:74] INFO: 总的响应数量:5
+2019-01-22 17:03:02 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:03:02.195464
+2019-01-22 17:03:02 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:03:03 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:03:03.580527
+2019-01-22 17:03:03 engine.py [line:70] INFO: 耗时：1.39
+2019-01-22 17:03:03 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:03:03 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:03:03 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '2cc81ede999f38ee616fb2663965278fa3b698d4'}
+2019-01-22 17:03:03 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:03:28 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:03:28.012226
+2019-01-22 17:03:28 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:03:28 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:03:28.825502
+2019-01-22 17:03:28 engine.py [line:70] INFO: 耗时：0.81
+2019-01-22 17:03:28 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:03:28 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:03:28 engine.py [line:73] INFO: 去重容器内的url : {'2cc81ede999f38ee616fb2663965278fa3b698d4', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 17:03:28 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:03:39 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:03:39.422410
+2019-01-22 17:03:39 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:03:40 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:03:40.153254
+2019-01-22 17:03:40 engine.py [line:70] INFO: 耗时：0.73
+2019-01-22 17:03:40 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:03:40 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:03:40 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '2cc81ede999f38ee616fb2663965278fa3b698d4', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 17:03:40 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:03:51 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:03:51.914121
+2019-01-22 17:03:51 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:03:52 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:03:52.645111
+2019-01-22 17:03:52 engine.py [line:70] INFO: 耗时：0.73
+2019-01-22 17:03:52 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:03:52 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:03:52 engine.py [line:73] INFO: 去重容器内的url : {'2cc81ede999f38ee616fb2663965278fa3b698d4', '19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-22 17:03:52 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:04:03 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:04:03.412302
+2019-01-22 17:04:03 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:04:04 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:04:04.406912
+2019-01-22 17:04:04 engine.py [line:70] INFO: 耗时：0.99
+2019-01-22 17:04:04 engine.py [line:71] INFO: 总的请求数量:6
+2019-01-22 17:04:04 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:04:04 engine.py [line:73] INFO: 去重容器内的url : {'0db802b6d3caa8b4df28092315892ae53c79e773', '19648883befbae40a3c684eab3c7f85c074260a5', '2cc81ede999f38ee616fb2663965278fa3b698d4', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '73094806f1e0a04aca58c8dd19d0e79d376260d6'}
+2019-01-22 17:04:04 engine.py [line:74] INFO: 总的响应数量:5
+2019-01-22 17:04:11 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:04:11.937356
+2019-01-22 17:04:11 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:04:12 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:04:12.746487
+2019-01-22 17:04:12 engine.py [line:70] INFO: 耗时：0.81
+2019-01-22 17:04:12 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:04:12 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:04:12 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '2cc81ede999f38ee616fb2663965278fa3b698d4', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-22 17:04:12 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:04:55 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:04:55.685664
+2019-01-22 17:04:55 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:04:57 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:04:57.092406
+2019-01-22 17:04:57 engine.py [line:70] INFO: 耗时：1.41
+2019-01-22 17:04:57 engine.py [line:71] INFO: 总的请求数量:6
+2019-01-22 17:04:57 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:04:57 engine.py [line:73] INFO: 去重容器内的url : {'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '2cc81ede999f38ee616fb2663965278fa3b698d4', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 17:04:57 engine.py [line:74] INFO: 总的响应数量:5
+2019-01-22 17:05:00 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:05:00.539030
+2019-01-22 17:05:00 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:05:01 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:05:01.013439
+2019-01-22 17:05:01 engine.py [line:70] INFO: 耗时：0.47
+2019-01-22 17:05:01 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:05:01 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:05:01 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '2cc81ede999f38ee616fb2663965278fa3b698d4', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 17:05:01 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:07:24 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:07:24.963173
+2019-01-22 17:07:24 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:07:26 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:07:26.408153
+2019-01-22 17:07:26 engine.py [line:70] INFO: 耗时：1.44
+2019-01-22 17:07:26 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:07:26 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:07:26 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '2cc81ede999f38ee616fb2663965278fa3b698d4', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 17:07:26 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:07:32 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:07:32.612094
+2019-01-22 17:07:32 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:07:33 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:07:33.585572
+2019-01-22 17:07:33 engine.py [line:70] INFO: 耗时：0.97
+2019-01-22 17:07:33 engine.py [line:71] INFO: 总的请求数量:6
+2019-01-22 17:07:33 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:07:33 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '2cc81ede999f38ee616fb2663965278fa3b698d4', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773'}
+2019-01-22 17:07:33 engine.py [line:74] INFO: 总的响应数量:5
+2019-01-22 17:07:52 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:07:52.794600
+2019-01-22 17:07:52 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:07:53 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:07:53.570786
+2019-01-22 17:07:53 engine.py [line:70] INFO: 耗时：0.78
+2019-01-22 17:07:53 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:07:53 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:07:53 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '2cc81ede999f38ee616fb2663965278fa3b698d4', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-22 17:07:53 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:08:09 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:08:09.269662
+2019-01-22 17:08:09 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:08:10 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:08:10.758581
+2019-01-22 17:08:10 engine.py [line:70] INFO: 耗时：1.49
+2019-01-22 17:08:10 engine.py [line:71] INFO: 总的请求数量:6
+2019-01-22 17:08:10 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:08:10 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '2cc81ede999f38ee616fb2663965278fa3b698d4'}
+2019-01-22 17:08:10 engine.py [line:74] INFO: 总的响应数量:5
+2019-01-22 17:08:26 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:08:26.108251
+2019-01-22 17:08:26 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:08:26 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:08:26.904826
+2019-01-22 17:08:26 engine.py [line:70] INFO: 耗时：0.80
+2019-01-22 17:08:26 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:08:26 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:08:26 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '2cc81ede999f38ee616fb2663965278fa3b698d4', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 17:08:26 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:08:31 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:08:31.565357
+2019-01-22 17:08:31 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:08:31 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:08:31.970196
+2019-01-22 17:08:31 engine.py [line:70] INFO: 耗时：0.40
+2019-01-22 17:08:31 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:08:31 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:08:31 engine.py [line:73] INFO: 去重容器内的url : {'2cc81ede999f38ee616fb2663965278fa3b698d4', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 17:08:31 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:08:35 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:08:35.749042
+2019-01-22 17:08:35 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:08:37 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:08:37.007258
+2019-01-22 17:08:37 engine.py [line:70] INFO: 耗时：1.26
+2019-01-22 17:08:37 engine.py [line:71] INFO: 总的请求数量:6
+2019-01-22 17:08:37 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:08:37 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '2cc81ede999f38ee616fb2663965278fa3b698d4', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-22 17:08:37 engine.py [line:74] INFO: 总的响应数量:5
+2019-01-22 17:09:02 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:09:02.375505
+2019-01-22 17:09:02 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:09:03 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:09:03.120330
+2019-01-22 17:09:03 engine.py [line:70] INFO: 耗时：0.74
+2019-01-22 17:09:03 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:09:03 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:09:03 engine.py [line:73] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '2cc81ede999f38ee616fb2663965278fa3b698d4'}
+2019-01-22 17:09:03 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:09:22 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:09:22.427526
+2019-01-22 17:09:22 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:09:23 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:09:23.212892
+2019-01-22 17:09:23 engine.py [line:70] INFO: 耗时：0.79
+2019-01-22 17:09:23 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:09:23 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:09:23 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '2cc81ede999f38ee616fb2663965278fa3b698d4', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 17:09:23 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:09:38 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:09:38.120643
+2019-01-22 17:09:38 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:09:38 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:09:38.887990
+2019-01-22 17:09:38 engine.py [line:70] INFO: 耗时：0.77
+2019-01-22 17:09:38 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:09:38 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:09:38 engine.py [line:73] INFO: 去重容器内的url : {'2cc81ede999f38ee616fb2663965278fa3b698d4', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 17:09:38 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:09:48 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:09:48.251359
+2019-01-22 17:09:48 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:09:51 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:09:51.860232
+2019-01-22 17:09:51 engine.py [line:70] INFO: 耗时：3.61
+2019-01-22 17:09:51 engine.py [line:71] INFO: 总的请求数量:8
+2019-01-22 17:09:51 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:09:51 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', '2cc81ede999f38ee616fb2663965278fa3b698d4', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '19648883befbae40a3c684eab3c7f85c074260a5', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2'}
+2019-01-22 17:09:51 engine.py [line:74] INFO: 总的响应数量:7
+2019-01-22 17:10:39 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:10:39.583768
+2019-01-22 17:10:39 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:10:41 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:10:41.020455
+2019-01-22 17:10:41 engine.py [line:70] INFO: 耗时：1.44
+2019-01-22 17:10:41 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:10:41 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:10:41 engine.py [line:73] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5', '2cc81ede999f38ee616fb2663965278fa3b698d4'}
+2019-01-22 17:10:41 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:15:50 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:15:50.065535
+2019-01-22 17:15:50 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:15:51 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:15:51.843500
+2019-01-22 17:15:51 engine.py [line:70] INFO: 耗时：1.78
+2019-01-22 17:15:51 engine.py [line:71] INFO: 总的请求数量:4
+2019-01-22 17:15:51 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:15:51 engine.py [line:73] INFO: 去重容器内的url : {'2cc81ede999f38ee616fb2663965278fa3b698d4', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 17:15:51 engine.py [line:74] INFO: 总的响应数量:3
+2019-01-22 17:17:40 engine.py [line:66] INFO: 开始运行时间：2019-01-22 17:17:40.398854
+2019-01-22 17:17:40 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:17:41 engine.py [line:69] INFO: 运行结束时间：2019-01-22 17:17:41.794760
+2019-01-22 17:17:41 engine.py [line:70] INFO: 耗时：1.40
+2019-01-22 17:17:41 engine.py [line:71] INFO: 总的请求数量:6
+2019-01-22 17:17:41 engine.py [line:72] INFO: 总的重复请求数量:1
+2019-01-22 17:17:41 engine.py [line:73] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', '6078e9de20f1718040bbf5383fa435951310da12', '0db802b6d3caa8b4df28092315892ae53c79e773', '19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-22 17:17:41 engine.py [line:74] INFO: 总的响应数量:5
+2019-01-22 17:38:28 engine.py [line:69] INFO: 开始运行时间：2019-01-22 17:38:28.687700
+2019-01-22 17:39:25 engine.py [line:69] INFO: 开始运行时间：2019-01-22 17:39:25.632336
+2019-01-22 17:40:01 engine.py [line:69] INFO: 开始运行时间：2019-01-22 17:40:01.601697
+2019-01-22 17:40:06 engine.py [line:69] INFO: 开始运行时间：2019-01-22 17:40:06.277158
+2019-01-22 17:40:27 engine.py [line:69] INFO: 开始运行时间：2019-01-22 17:40:27.019870
+2019-01-22 17:40:27 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:40:28 engine.py [line:73] INFO: 运行结束时间：2019-01-22 17:40:28.264174
+2019-01-22 17:40:28 engine.py [line:74] INFO: 耗时：1.24
+2019-01-22 17:40:28 engine.py [line:75] INFO: 总的请求数量:4
+2019-01-22 17:40:28 engine.py [line:76] INFO: 总的重复请求数量:1
+2019-01-22 17:40:28 engine.py [line:77] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '6078e9de20f1718040bbf5383fa435951310da12', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 17:40:28 engine.py [line:78] INFO: 总的响应数量:3
+2019-01-22 17:40:56 engine.py [line:69] INFO: 开始运行时间：2019-01-22 17:40:56.634929
+2019-01-22 17:40:56 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:40:58 engine.py [line:73] INFO: 运行结束时间：2019-01-22 17:40:58.084575
+2019-01-22 17:40:58 engine.py [line:74] INFO: 耗时：1.45
+2019-01-22 17:40:58 engine.py [line:75] INFO: 总的请求数量:8
+2019-01-22 17:40:58 engine.py [line:76] INFO: 总的重复请求数量:1
+2019-01-22 17:40:58 engine.py [line:77] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '0db802b6d3caa8b4df28092315892ae53c79e773', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '19648883befbae40a3c684eab3c7f85c074260a5', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '6078e9de20f1718040bbf5383fa435951310da12'}
+2019-01-22 17:40:58 engine.py [line:78] INFO: 总的响应数量:7
+2019-01-22 17:41:39 engine.py [line:69] INFO: 开始运行时间：2019-01-22 17:41:39.234268
+2019-01-22 17:41:39 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 17:41:39 engine.py [line:73] INFO: 运行结束时间：2019-01-22 17:41:39.985570
+2019-01-22 17:41:39 engine.py [line:74] INFO: 耗时：0.75
+2019-01-22 17:41:39 engine.py [line:75] INFO: 总的请求数量:4
+2019-01-22 17:41:39 engine.py [line:76] INFO: 总的重复请求数量:1
+2019-01-22 17:41:39 engine.py [line:77] INFO: 去重容器内的url : {'6078e9de20f1718040bbf5383fa435951310da12', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 17:41:39 engine.py [line:78] INFO: 总的响应数量:3
+2019-01-22 18:27:53 engine.py [line:69] INFO: 开始运行时间：2019-01-22 18:27:53.043905
+2019-01-22 18:27:53 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 18:27:54 engine.py [line:73] INFO: 运行结束时间：2019-01-22 18:27:54.501666
+2019-01-22 18:27:54 engine.py [line:74] INFO: 耗时：1.46
+2019-01-22 18:27:54 engine.py [line:75] INFO: 总的请求数量:6
+2019-01-22 18:27:54 engine.py [line:76] INFO: 总的重复请求数量:1
+2019-01-22 18:27:54 engine.py [line:77] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '0db802b6d3caa8b4df28092315892ae53c79e773', '6078e9de20f1718040bbf5383fa435951310da12', '73094806f1e0a04aca58c8dd19d0e79d376260d6', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 18:27:54 engine.py [line:78] INFO: 总的响应数量:5
+2019-01-22 18:28:00 engine.py [line:69] INFO: 开始运行时间：2019-01-22 18:28:00.648147
+2019-01-22 18:28:00 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 18:28:01 engine.py [line:73] INFO: 运行结束时间：2019-01-22 18:28:01.636205
+2019-01-22 18:28:01 engine.py [line:74] INFO: 耗时：0.99
+2019-01-22 18:28:01 engine.py [line:75] INFO: 总的请求数量:6
+2019-01-22 18:28:01 engine.py [line:76] INFO: 总的重复请求数量:1
+2019-01-22 18:28:01 engine.py [line:77] INFO: 去重容器内的url : {'73094806f1e0a04aca58c8dd19d0e79d376260d6', '19648883befbae40a3c684eab3c7f85c074260a5', '0db802b6d3caa8b4df28092315892ae53c79e773', '6078e9de20f1718040bbf5383fa435951310da12', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-22 18:28:01 engine.py [line:78] INFO: 总的响应数量:5
+2019-01-22 18:28:11 engine.py [line:69] INFO: 开始运行时间：2019-01-22 18:28:11.080073
+2019-01-22 18:28:11 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-22 18:28:12 engine.py [line:73] INFO: 运行结束时间：2019-01-22 18:28:12.552347
+2019-01-22 18:28:12 engine.py [line:74] INFO: 耗时：1.47
+2019-01-22 18:28:12 engine.py [line:75] INFO: 总的请求数量:4
+2019-01-22 18:28:12 engine.py [line:76] INFO: 总的重复请求数量:1
+2019-01-22 18:28:12 engine.py [line:77] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '6078e9de20f1718040bbf5383fa435951310da12', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-22 18:28:12 engine.py [line:78] INFO: 总的响应数量:3
+2019-01-22 18:56:11 engine.py [line:69] INFO: 开始运行时间：2019-01-22 18:56:11.749126
+2019-01-23 09:44:08 engine.py [line:69] INFO: 开始运行时间：2019-01-23 09:44:08.004894
+2019-01-23 09:44:08 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-23 09:44:09 engine.py [line:73] INFO: 运行结束时间：2019-01-23 09:44:09.291990
+2019-01-23 09:44:09 engine.py [line:74] INFO: 耗时：1.29
+2019-01-23 09:44:09 engine.py [line:75] INFO: 总的请求数量:6
+2019-01-23 09:44:09 engine.py [line:76] INFO: 总的重复请求数量:1
+2019-01-23 09:44:09 engine.py [line:77] INFO: 去重容器内的url : {'6078e9de20f1718040bbf5383fa435951310da12', '1f085df4123c7e4603402a3d659c8a44adb9c6c1', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '04f3eba36c32dc5fc8abb7076df35e7bdd9e3bd0', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-23 09:44:09 engine.py [line:78] INFO: 总的响应数量:5
+2019-01-23 09:51:25 engine.py [line:69] INFO: 开始运行时间：2019-01-23 09:51:25.376566
+2019-01-23 09:51:25 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-23 09:51:26 engine.py [line:73] INFO: 运行结束时间：2019-01-23 09:51:26.884617
+2019-01-23 09:51:26 engine.py [line:74] INFO: 耗时：1.51
+2019-01-23 09:51:26 engine.py [line:75] INFO: 总的请求数量:6
+2019-01-23 09:51:26 engine.py [line:76] INFO: 总的重复请求数量:1
+2019-01-23 09:51:26 engine.py [line:77] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '6078e9de20f1718040bbf5383fa435951310da12', '19648883befbae40a3c684eab3c7f85c074260a5', '04f3eba36c32dc5fc8abb7076df35e7bdd9e3bd0', '1f085df4123c7e4603402a3d659c8a44adb9c6c1'}
+2019-01-23 09:51:26 engine.py [line:78] INFO: 总的响应数量:5
+2019-01-23 09:52:29 engine.py [line:69] INFO: 开始运行时间：2019-01-23 09:52:29.605234
+2019-01-23 09:52:29 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-23 09:52:30 engine.py [line:73] INFO: 运行结束时间：2019-01-23 09:52:30.524302
+2019-01-23 09:52:30 engine.py [line:74] INFO: 耗时：0.92
+2019-01-23 09:52:30 engine.py [line:75] INFO: 总的请求数量:6
+2019-01-23 09:52:30 engine.py [line:76] INFO: 总的重复请求数量:1
+2019-01-23 09:52:30 engine.py [line:77] INFO: 去重容器内的url : {'04f3eba36c32dc5fc8abb7076df35e7bdd9e3bd0', '1f085df4123c7e4603402a3d659c8a44adb9c6c1', '19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '6078e9de20f1718040bbf5383fa435951310da12'}
+2019-01-23 09:52:30 engine.py [line:78] INFO: 总的响应数量:5
+2019-01-23 09:54:38 engine.py [line:69] INFO: 开始运行时间：2019-01-23 09:54:38.520458
+2019-01-23 09:54:38 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-23 09:54:40 engine.py [line:73] INFO: 运行结束时间：2019-01-23 09:54:40.005254
+2019-01-23 09:54:40 engine.py [line:74] INFO: 耗时：1.48
+2019-01-23 09:54:40 engine.py [line:75] INFO: 总的请求数量:8
+2019-01-23 09:54:40 engine.py [line:76] INFO: 总的重复请求数量:1
+2019-01-23 09:54:40 engine.py [line:77] INFO: 去重容器内的url : {'1f085df4123c7e4603402a3d659c8a44adb9c6c1', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '6078e9de20f1718040bbf5383fa435951310da12', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '04f3eba36c32dc5fc8abb7076df35e7bdd9e3bd0', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-23 09:54:40 engine.py [line:78] INFO: 总的响应数量:7
+2019-01-23 09:55:16 engine.py [line:69] INFO: 开始运行时间：2019-01-23 09:55:16.353836
+2019-01-23 09:55:16 scheduler.py [line:40] INFO: 发现重复的请求：<post http://ggzyjy.xxz.gov.cn/EpointWebBuilderXiang/moreinfojyxxlistAction.action?cmd=getInfolist>
+2019-01-23 09:55:17 engine.py [line:73] INFO: 运行结束时间：2019-01-23 09:55:17.499926
+2019-01-23 09:55:17 engine.py [line:74] INFO: 耗时：1.15
+2019-01-23 09:55:17 engine.py [line:75] INFO: 总的请求数量:6
+2019-01-23 09:55:17 engine.py [line:76] INFO: 总的重复请求数量:1
+2019-01-23 09:55:17 engine.py [line:77] INFO: 去重容器内的url : {'6078e9de20f1718040bbf5383fa435951310da12', '1f085df4123c7e4603402a3d659c8a44adb9c6c1', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5', '04f3eba36c32dc5fc8abb7076df35e7bdd9e3bd0'}
+2019-01-23 09:55:17 engine.py [line:78] INFO: 总的响应数量:5
+2019-01-23 10:51:04 engine.py [line:81] INFO: 开始运行时间：2019-01-23 10:51:04.134005
+2019-01-23 10:51:15 engine.py [line:85] INFO: 运行结束时间：2019-01-23 10:51:15.311270
+2019-01-23 10:51:15 engine.py [line:86] INFO: 耗时：11.18
+2019-01-23 10:51:15 engine.py [line:87] INFO: 总的请求数量:8
+2019-01-23 10:51:15 engine.py [line:88] INFO: 总的重复请求数量:0
+2019-01-23 10:51:15 engine.py [line:89] INFO: 去重容器内的url : {'2cc81ede999f38ee616fb2663965278fa3b698d4', '453af85668cdf4161ef670d5043a5a97981bebb3', '7b9efe7144bacfa79b418e30b78713d280a7aacf', '19648883befbae40a3c684eab3c7f85c074260a5', '04f3eba36c32dc5fc8abb7076df35e7bdd9e3bd0', '1f085df4123c7e4603402a3d659c8a44adb9c6c1', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '6078e9de20f1718040bbf5383fa435951310da12'}
+2019-01-23 10:51:15 engine.py [line:90] INFO: 总的响应数量:8
+2019-01-23 10:54:14 engine.py [line:81] INFO: 开始运行时间：2019-01-23 10:54:14.719321
+2019-01-23 10:54:16 engine.py [line:85] INFO: 运行结束时间：2019-01-23 10:54:16.623181
+2019-01-23 10:54:16 engine.py [line:86] INFO: 耗时：1.90
+2019-01-23 10:54:16 engine.py [line:87] INFO: 总的请求数量:8
+2019-01-23 10:54:16 engine.py [line:88] INFO: 总的重复请求数量:0
+2019-01-23 10:54:16 engine.py [line:89] INFO: 去重容器内的url : {'453af85668cdf4161ef670d5043a5a97981bebb3', '04f3eba36c32dc5fc8abb7076df35e7bdd9e3bd0', '6078e9de20f1718040bbf5383fa435951310da12', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5', '2cc81ede999f38ee616fb2663965278fa3b698d4', '7b9efe7144bacfa79b418e30b78713d280a7aacf', '1f085df4123c7e4603402a3d659c8a44adb9c6c1'}
+2019-01-23 10:54:16 engine.py [line:90] INFO: 总的响应数量:8
+2019-01-23 11:25:09 engine.py [line:83] INFO: 开始运行时间：2019-01-23 11:25:09.262449
+2019-01-23 11:26:10 engine.py [line:83] INFO: 开始运行时间：2019-01-23 11:26:10.089295
+2019-01-23 11:27:39 engine.py [line:83] INFO: 开始运行时间：2019-01-23 11:27:39.805176
+2019-01-23 11:33:58 engine.py [line:82] INFO: 开始运行时间：2019-01-23 11:33:58.944315
+2019-01-23 11:38:34 engine.py [line:82] INFO: 开始运行时间：2019-01-23 11:38:34.828652
+2019-01-23 11:40:45 engine.py [line:82] INFO: 开始运行时间：2019-01-23 11:40:45.913759
+2019-01-23 11:40:49 engine.py [line:86] INFO: 运行结束时间：2019-01-23 11:40:49.408205
+2019-01-23 11:40:49 engine.py [line:87] INFO: 耗时：3.49
+2019-01-23 11:40:49 engine.py [line:88] INFO: 总的请求数量:8
+2019-01-23 11:40:49 engine.py [line:89] INFO: 总的重复请求数量:0
+2019-01-23 11:40:49 engine.py [line:90] INFO: 去重容器内的url : {'19648883befbae40a3c684eab3c7f85c074260a5', '453af85668cdf4161ef670d5043a5a97981bebb3', '04f3eba36c32dc5fc8abb7076df35e7bdd9e3bd0', '7b9efe7144bacfa79b418e30b78713d280a7aacf', '2cc81ede999f38ee616fb2663965278fa3b698d4', '1f085df4123c7e4603402a3d659c8a44adb9c6c1', '6078e9de20f1718040bbf5383fa435951310da12', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-23 11:40:49 engine.py [line:91] INFO: 总的响应数量:8
+2019-01-23 11:41:47 engine.py [line:82] INFO: 开始运行时间：2019-01-23 11:41:47.520540
+2019-01-23 11:41:53 engine.py [line:86] INFO: 运行结束时间：2019-01-23 11:41:53.005907
+2019-01-23 11:41:53 engine.py [line:87] INFO: 耗时：5.49
+2019-01-23 11:41:53 engine.py [line:88] INFO: 总的请求数量:8
+2019-01-23 11:41:53 engine.py [line:89] INFO: 总的重复请求数量:0
+2019-01-23 11:41:53 engine.py [line:90] INFO: 去重容器内的url : {'2cc81ede999f38ee616fb2663965278fa3b698d4', '453af85668cdf4161ef670d5043a5a97981bebb3', '19648883befbae40a3c684eab3c7f85c074260a5', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '04f3eba36c32dc5fc8abb7076df35e7bdd9e3bd0', '7b9efe7144bacfa79b418e30b78713d280a7aacf', '6078e9de20f1718040bbf5383fa435951310da12', '1f085df4123c7e4603402a3d659c8a44adb9c6c1'}
+2019-01-23 11:41:53 engine.py [line:91] INFO: 总的响应数量:8
+2019-01-23 11:53:04 engine.py [line:82] INFO: 开始运行时间：2019-01-23 11:53:04.106689
+2019-01-23 11:53:05 engine.py [line:86] INFO: 运行结束时间：2019-01-23 11:53:05.473205
+2019-01-23 11:53:05 engine.py [line:87] INFO: 耗时：1.37
+2019-01-23 11:53:05 engine.py [line:88] INFO: 总的请求数量:8
+2019-01-23 11:53:05 engine.py [line:89] INFO: 总的重复请求数量:0
+2019-01-23 11:53:05 engine.py [line:90] INFO: 去重容器内的url : {'9075d6ce676ed230fde5e52399f26d4bd48cc11b', '1f085df4123c7e4603402a3d659c8a44adb9c6c1', '6078e9de20f1718040bbf5383fa435951310da12', '2cc81ede999f38ee616fb2663965278fa3b698d4', '453af85668cdf4161ef670d5043a5a97981bebb3', '19648883befbae40a3c684eab3c7f85c074260a5', '7b9efe7144bacfa79b418e30b78713d280a7aacf', '04f3eba36c32dc5fc8abb7076df35e7bdd9e3bd0'}
+2019-01-23 11:53:05 engine.py [line:91] INFO: 总的响应数量:8
+2019-01-23 11:55:14 engine.py [line:82] INFO: 开始运行时间：2019-01-23 11:55:14.586563
+2019-01-23 11:55:16 engine.py [line:86] INFO: 运行结束时间：2019-01-23 11:55:16.300375
+2019-01-23 11:55:16 engine.py [line:87] INFO: 耗时：1.71
+2019-01-23 11:55:16 engine.py [line:88] INFO: 总的请求数量:10
+2019-01-23 11:55:16 engine.py [line:89] INFO: 总的重复请求数量:0
+2019-01-23 11:55:16 engine.py [line:90] INFO: 去重容器内的url : {'04f3eba36c32dc5fc8abb7076df35e7bdd9e3bd0', '453af85668cdf4161ef670d5043a5a97981bebb3', 'c5dba783b68a58e3d79ed253328f843cb6d3eac2', '2cc81ede999f38ee616fb2663965278fa3b698d4', '7b9efe7144bacfa79b418e30b78713d280a7aacf', '1f085df4123c7e4603402a3d659c8a44adb9c6c1', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '40f1815eca53bbc2758fa2f05991a9f2b08fb822', '6078e9de20f1718040bbf5383fa435951310da12', '19648883befbae40a3c684eab3c7f85c074260a5'}
+2019-01-23 11:55:16 engine.py [line:91] INFO: 总的响应数量:10
+2019-01-23 11:58:21 engine.py [line:82] INFO: 开始运行时间：2019-01-23 11:58:21.168308
+2019-01-23 11:58:22 engine.py [line:87] INFO: 运行结束时间：2019-01-23 11:58:22.815438
+2019-01-23 11:58:22 engine.py [line:88] INFO: 耗时：1.65
+2019-01-23 11:58:22 engine.py [line:89] INFO: 总的请求数量:8
+2019-01-23 11:58:22 engine.py [line:90] INFO: 总的重复请求数量:0
+2019-01-23 11:58:22 engine.py [line:91] INFO: 去重容器内的url : {'04f3eba36c32dc5fc8abb7076df35e7bdd9e3bd0', '2cc81ede999f38ee616fb2663965278fa3b698d4', '7b9efe7144bacfa79b418e30b78713d280a7aacf', '6078e9de20f1718040bbf5383fa435951310da12', '19648883befbae40a3c684eab3c7f85c074260a5', '1f085df4123c7e4603402a3d659c8a44adb9c6c1', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '453af85668cdf4161ef670d5043a5a97981bebb3'}
+2019-01-23 11:58:22 engine.py [line:92] INFO: 总的响应数量:8
+2019-01-23 12:10:24 engine.py [line:82] INFO: 开始运行时间：2019-01-23 12:10:24.808787
+2019-01-23 12:10:27 engine.py [line:87] INFO: 运行结束时间：2019-01-23 12:10:27.804654
+2019-01-23 12:10:27 engine.py [line:88] INFO: 耗时：3.00
+2019-01-23 12:10:27 engine.py [line:89] INFO: 总的请求数量:8
+2019-01-23 12:10:27 engine.py [line:90] INFO: 总的重复请求数量:0
+2019-01-23 12:10:27 engine.py [line:91] INFO: 去重容器内的url : {'6078e9de20f1718040bbf5383fa435951310da12', '19648883befbae40a3c684eab3c7f85c074260a5', '453af85668cdf4161ef670d5043a5a97981bebb3', '2cc81ede999f38ee616fb2663965278fa3b698d4', '1f085df4123c7e4603402a3d659c8a44adb9c6c1', '04f3eba36c32dc5fc8abb7076df35e7bdd9e3bd0', '7b9efe7144bacfa79b418e30b78713d280a7aacf', '9075d6ce676ed230fde5e52399f26d4bd48cc11b'}
+2019-01-23 12:10:27 engine.py [line:92] INFO: 总的响应数量:8
+2019-01-23 12:22:08 engine.py [line:82] INFO: 开始运行时间：2019-01-23 12:22:08.442766
+2019-01-23 12:22:10 engine.py [line:87] INFO: 运行结束时间：2019-01-23 12:22:10.340838
+2019-01-23 12:22:10 engine.py [line:88] INFO: 耗时：1.90
+2019-01-23 12:22:10 engine.py [line:89] INFO: 总的请求数量:8
+2019-01-23 12:22:10 engine.py [line:90] INFO: 总的重复请求数量:0
+2019-01-23 12:22:10 engine.py [line:91] INFO: 去重容器内的url : {'2cc81ede999f38ee616fb2663965278fa3b698d4', '1f085df4123c7e4603402a3d659c8a44adb9c6c1', '7b9efe7144bacfa79b418e30b78713d280a7aacf', '9075d6ce676ed230fde5e52399f26d4bd48cc11b', '19648883befbae40a3c684eab3c7f85c074260a5', '453af85668cdf4161ef670d5043a5a97981bebb3', '04f3eba36c32dc5fc8abb7076df35e7bdd9e3bd0', '6078e9de20f1718040bbf5383fa435951310da12'}
+2019-01-23 12:22:10 engine.py [line:92] INFO: 总的响应数量:8

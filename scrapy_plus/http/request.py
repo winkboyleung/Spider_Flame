@@ -2,7 +2,7 @@
 
 class Request:
 
-    def __init__(self, url, method='GET', headers={}, params={}, data={}, callback='parse', meta = {}, execute_spide = ''):
+    def __init__(self, url, method='GET', headers={}, params={}, data={}, callback='parse', meta = {}, execute_spide = '', proxies = {}):
         self.url = url
         self.method = method
         self.headers = headers
@@ -15,3 +15,6 @@ class Request:
 
         # 新增内容 多解析函数需要传参来确定爬虫名、进而通过爬虫名获取到对应的爬虫对象、再进而调用该爬虫对象的解析函数
         self.execute_spider = execute_spide
+
+        # 新增内容 添加了代理ip属性
+        self.proxies = proxies

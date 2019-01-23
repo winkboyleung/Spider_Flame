@@ -28,5 +28,5 @@ class DoubanSpider(Spider):
     def parse_article(self, response):
         items = response.meta['items']
         # items['content'] = response.xpath('//div[@class="indent"]//text()')[0]
-        # yield items
-        print('内容 : {}'.format(items))
+        yield items
+        # print('内容 : {}'.format(items))

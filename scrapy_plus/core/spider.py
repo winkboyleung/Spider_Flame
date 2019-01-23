@@ -19,4 +19,4 @@ class Spider:
     def parse(self, response):
         # print(response.url)
         # return Item(response.body)
-        yield Item(response.body)
+        yield response.body

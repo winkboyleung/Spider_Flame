@@ -24,10 +24,17 @@ from scrapy_plus.conf.settings import SPIDERS, PIPELINES, DOWNLOADER_MIDDLEWARES
 
 from multiprocessing.dummy import Pool
 
+# 运行获取字典函数的代码
+from scrapy_plus.project_dir.city_data import get_city_dict
+
+# 导入mysql
+import pymysql
+
 
 class Engine:
 
-    def __init__(self, pipelines = {}, middlewares = {}):
+    # 这里的pipelines和middlewares并不是通过导包过来的而是通过参数传递过来的
+    def __init__(self, pipelines, middlewares = {}):
         # self.spider = Spider()
         # self.spider = spiders
         self.spider = self._auto_import_instances(SPIDERS)
@@ -49,6 +56,15 @@ class Engine:
         # 递归函数关闭机制 默认为关闭false
         self.is_running = False
 
+        # # 初始化链接mysql生成游标
+        # self.conn = pymysql.connect(host='47.106.13.62',
+        #                             user='root',
+        #                             password='jiayou875',
+        #                             database='test_demo',
+        #                             port=3306,
+        #                             charset='utf8')
+        # self.cur = self.conn.cursor()
+
 
     def _auto_import_instances(self, path = []):
         instance = {}
@@ -64,6 +80,8 @@ class Engine:
     def start(self):
         start = datetime.now()
         logger.info("开始运行时间：%s" % start)  # 使用日志记录起始运行时间
+        get_city_dict()
+        time.sleep(0.1)
         self._start_engine()
         stop = datetime.now()
         logger.info("运行结束时间：%s" % stop)  # 使用日志记录结束运行时间
@@ -140,13 +158,21 @@ class Engine:
                         self.total_request_nums += 1
 
                     else:
+                        # 初始化链接mysql生成游标
+                        conn = pymysql.connect(host='47.106.13.62',
+                                               user='root',
+                                               password='jiayou875',
+                                               database='test_demo',
+                                               port=3306,
+                                               charset='utf8')
+                        cur = conn.cursor()
                         # 课件上的方法、虽可用、但是每次都要将所有管道遍历一次、浪费资源
                         # for pipeline in self.pipelines:
                         #     pipeline.process_item(result, spider)
 
                         # 自己重写的方法、不用遍历所有管道、只需要根据请求对象的spider名获取到self.pipelines中对应的管道即可
-                        pipeline = self.pipelines[spider.name]
-                        pipeline.process_item(result, spider)
+                        pipeline = self.pipelines
+                        pipeline.process_item(result, cur, conn)
                         # self.pipeline.process_item(result)
 
 
@@ -176,3 +202,4 @@ class Engine:
                     # logger.info("程序结束")
                     self.is_running = False
                     break
+
